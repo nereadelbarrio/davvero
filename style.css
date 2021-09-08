@@ -333,6 +333,20 @@ defi > mcgraw*/
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Segoe Print';
+    src: url('fonts/SegoePrint-Bold.eot');
+    src: url('fonts/SegoePrint-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SegoePrint-Bold.woff') format('woff'),
+        url('fonts/SegoePrint-Bold.ttf') format('truetype'),
+        url('fonts/SegoePrint-Bold.svg#SegoePrint-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 
 
 #indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled) {
@@ -788,33 +802,14 @@ color: #fff;
 	font-family: 'FranziskaPro';
 }
 
-.bck-enfasis-5:before {
-    content: "";
-    background-image: url(images/icono_exclamacion_davvero.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    padding: 10px;
-    margin-left: -25px
-}
 
 .bck-enfasis-6 {
-    font-family: Conv_Stag-Sans;
-    color: #2b7239;
+    font-family: 'Segoe Print';
+    color: #0067B3;
     font-size: 1.8rem;
     font-weight: 700;
-    margin-left: 25px
 }
 
-.bck-enfasis-6:before {
-    content: "";
-    background-image: url(images/icono_campana_davvero.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    padding: 10px;
-    margin-left: -25px
-}
 
 .bck-enfasis-7 {
     font-weight: 700;
