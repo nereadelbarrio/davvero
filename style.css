@@ -685,7 +685,15 @@ color: #fff;
 }
 
 .bck-title-4 {
-    font-size: 4.3rem
+    background-color: #00B7BD;
+    font-family: 'Eames Century Modern';
+    font-size: 4.1rem;
+    padding: 8px 8px 8px 0px;
+    margin-left: 0;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    border-radius: 0 10px 10px 0;
 }
 
 .bck-title-5 {
@@ -733,10 +741,11 @@ color: #fff;
 }
 
 .bck-enfasis-2 {
-    color: #333;
-    font-size: 1.3rem;
-    font-family: Conv_Stag-Sans;
-    vertical-align: super
+    font-style: normal;
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Glober xBold';
+    padding-left: 50px;
 }
 
 .bck-enfasis-3 {
