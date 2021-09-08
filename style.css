@@ -1904,31 +1904,31 @@ hr {
     margin-top: -8px;
 }
 
-.item-container .icon-thefrenchhub:before {
-    background-image: url(images/logofrenchhub_davvero.png);
-    width: 125px;
-    height: 23px;
+.item-container .icon-conversar:before {
+    background-image: url(images/icono_conversar.png);
+    width: 38px;
+    height: 37px;
     vertical-align: top;
     margin-right: 5px;
-    margin-top: 1px
+    margin-top: -10px;
 }
 
-.item-container .icon-compare:before {
-    background-image: url(images/icono_compare_davvero.png);
-    width: 110px;
-    height: 23px;
+.item-container .icon-hablar:before {
+    background-image: url(images/icono_hablar.png);
+    width: 36px;
+    height: 35px;
     vertical-align: top;
     margin-right: 5px;
-    margin-top: 1px
+    margin-top: -7px;
 }
 
-.item-container .icon-grupo:before {
-    background-image: url(images/icono_grupo_davvero.png);
-    width: 31px;
-    height: 24px;
+.item-container .icon-escribir:before {
+    background-image: url(images/icono_escribir.png);
+    width: 36px;
+    height: 35px;
     vertical-align: top;
     margin-right: 5px;
-    margin-top: 1px
+    margin-top: -9px;
 }
 
 .bck-table,table {
