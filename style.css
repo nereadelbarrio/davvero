@@ -349,7 +349,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     content: "";
     background-size: contain;
     top: 12px;
-    background-image: url(imagenes/logofrenchhub_davvero.png)!important;
+    background-image: url(images/logofrenchhub_davvero.png)!important;
     position: fixed;
     width: 100px;
     height: 23px;
@@ -370,7 +370,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     left: 0;
     width: 100px;
     height: 44px;
-    background: url(imagenes/logofrenchhub_davvero.png) 0 0 no-repeat;
+    background: url(images/logofrenchhub_davvero.png) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -575,7 +575,7 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 #actividad .player.audio {
-    background-image: url(imagenes/icono_audio_davvero.png);
+    background-image: url(images/icono_audio_davvero.png);
     color: #fff
 }
 
@@ -604,7 +604,7 @@ body.is_app .davvero-navbar.ocultar {
 
 .bck-file-attach:before {
     content: " ";
-    background-image: url(imagenes/icono_transcripciones.png);
+    background-image: url(images/icono_transcripciones.png);
     background-repeat: no-repeat;
     padding: 10px;
     background-size: contain;
@@ -649,7 +649,7 @@ body.is_app .davvero-navbar.ocultar {
     padding: 20px;
     margin-right: 0;
     background-size: contain;
-    background-image: url(imagenes/img_casablanca.png);
+    background-image: url(images/img_casablanca.png);
     background-repeat: no-repeat
 }
 
@@ -746,7 +746,7 @@ color: #fff;
 
 .bck-enfasis-3:before {
     content: "";
-    background-image: url(imagenes/icono_flecha_verde_davvero.png);
+    background-image: url(images/icono_flecha_verde_davvero.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -774,7 +774,7 @@ color: #fff;
 
 .bck-enfasis-5:before {
     content: "";
-    background-image: url(imagenes/icono_exclamacion_davvero.png);
+    background-image: url(images/icono_exclamacion_davvero.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -792,7 +792,7 @@ color: #fff;
 
 .bck-enfasis-6:before {
     content: "";
-    background-image: url(imagenes/icono_campana_davvero.png);
+    background-image: url(images/icono_campana_davvero.png);
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -1238,7 +1238,7 @@ color: #fff;
 
 #actividad .content .cke_contents .bck-ul-5 li:before,#actividad .content .texto_curso ul.bck-ul-5 li:before,#actividad .content .workspace ul li ul.bck-ul-5 li:before,#actividad .popover-content ul.bck-ul-5 li:before {
     content: "";
-    background-image: url(imagenes/icono_escribir_davvero.png);
+    background-image: url(images/icono_escribir_davvero.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 13px;
@@ -1321,7 +1321,7 @@ color: #fff;
 
 .bck-box.bck-box-1 .bck-content:before {
     content: "";
-    background-image: url(imagenes/icono_bocadillo_marron_davvero.png);
+    background-image: url(images/icono_bocadillo_marron_davvero.png);
     background-size: contain;
     background-repeat: no-repeat;
     padding: 20px;
@@ -1464,7 +1464,7 @@ color: #fff;
     content: "";
     position: absolute;
     padding: 43px;
-    background-image: url(imagenes/icono_diana_davvero.png);
+    background-image: url(images/icono_diana_davvero.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -15px;
@@ -1716,7 +1716,7 @@ color: #fff;
 
 hr {
     margin: 15px 0;
-    border-top: 3px dotted #fff
+    border-top: 1px solid #231F20;
 }
 
 #actividad .workspace.true-false .tf-option {
@@ -1862,7 +1862,7 @@ hr {
 }
 
 .item-container .icon-video:before {
-    background-image: url(imagenes/icono_video_davvero.png);
+    background-image: url(images/icono_video_davvero.png);
     width: 30px;
     height: 25px;
     vertical-align: top;
@@ -1870,7 +1870,7 @@ hr {
 }
 
 .item-container .icon-cesta-letras:before {
-    background-image: url(imagenes/icono_cesta_davvero.png);
+    background-image: url(images/icono_cesta_davvero.png);
     width: 60px;
     height: 60px;
     vertical-align: top;
@@ -1878,15 +1878,15 @@ hr {
 }
 
 .item-container .icon-exclamacion-verde:before {
-    background-image: url(imagenes/icono_exclamacion_davvero.png);
+    background-image: url(images/icono_exclamacion_davvero.png);
     width: 25px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px
 }
 
-.item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_davvero.png);
+.item-container .icon-cf:before {
+    background-image: url(images/icono_CF.PNG);
     width: 25px;
     height: 25px;
     vertical-align: top;
@@ -1894,7 +1894,7 @@ hr {
 }
 
 .item-container .icon-lapiz:before {
-    background-image: url(imagenes/icono_escribir_davvero.png);
+    background-image: url(images/icono_CI.PNG);
     width: 25px;
     height: 25px;
     vertical-align: top;
@@ -1902,7 +1902,7 @@ hr {
 }
 
 .item-container .icon-thefrenchhub:before {
-    background-image: url(imagenes/logofrenchhub_davvero.png);
+    background-image: url(images/logofrenchhub_davvero.png);
     width: 125px;
     height: 23px;
     vertical-align: top;
@@ -1911,7 +1911,7 @@ hr {
 }
 
 .item-container .icon-compare:before {
-    background-image: url(imagenes/icono_compare_davvero.png);
+    background-image: url(images/icono_compare_davvero.png);
     width: 110px;
     height: 23px;
     vertical-align: top;
@@ -1920,7 +1920,7 @@ hr {
 }
 
 .item-container .icon-grupo:before {
-    background-image: url(imagenes/icono_grupo_davvero.png);
+    background-image: url(images/icono_grupo_davvero.png);
     width: 31px;
     height: 24px;
     vertical-align: top;
@@ -2066,15 +2066,15 @@ td,th {
 }
 
 .unittag_rojo_davvero .item-container .icon-cesta-letras:before {
-    background-image: url(imagenes/icono_cesta_rojo_davvero.png)
+    background-image: url(images/icono_cesta_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .item-container .icon-exclamacion-verde:before {
-    background-image: url(imagenes/icono_exclamacion_rojo_davvero.png)
+    background-image: url(images/icono_exclamacion_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_rojo_davvero.png)
+    background-image: url(images/icono_campana_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .bck-enfasis-3 {
@@ -2082,7 +2082,7 @@ td,th {
 }
 
 .unittag_rojo_davvero .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_rojo_davvero.png)
+    background-image: url(images/icono_flecha_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .bck-enfasis-5 {
@@ -2090,7 +2090,7 @@ td,th {
 }
 
 .unittag_rojo_davvero .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_rojo_davvero.png)
+    background-image: url(images/icono_exclamacion_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .bck-enfasis-6 {
@@ -2098,7 +2098,7 @@ td,th {
 }
 
 .unittag_rojo_davvero .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_rojo_davvero.png)
+    background-image: url(images/icono_campana_rojo_davvero.png)
 }
 
 .unittag_rojo_davvero .bck-dropdown.bck-dropdown-3 {
@@ -2172,15 +2172,15 @@ td,th {
 }
 
 .unittag_azul_davvero .item-container .icon-cesta-letras:before {
-    background-image: url(imagenes/icono_cesta_azul_davvero.png)
+    background-image: url(images/icono_cesta_azul_davvero.png)
 }
 
 .unittag_azul_davvero .item-container .icon-exclamacion-verde:before {
-    background-image: url(imagenes/icono_exclamacion_azul_davvero.png)
+    background-image: url(images/icono_exclamacion_azul_davvero.png)
 }
 
 .unittag_azul_davvero .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_azul_davvero.png)
+    background-image: url(images/icono_campana_azul_davvero.png)
 }
 
 .unittag_azul_davvero .bck-enfasis-3 {
@@ -2188,7 +2188,7 @@ td,th {
 }
 
 .unittag_azul_davvero .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_azul_davvero.png)
+    background-image: url(images/icono_flecha_azul_davvero.png)
 }
 
 .unittag_azul_davvero .bck-enfasis-5 {
@@ -2196,7 +2196,7 @@ td,th {
 }
 
 .unittag_azul_davvero .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_azul_davvero.png)
+    background-image: url(images/icono_exclamacion_azul_davvero.png)
 }
 
 .unittag_azul_davvero .bck-enfasis-6 {
@@ -2204,7 +2204,7 @@ td,th {
 }
 
 .unittag_azul_davvero .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_azul_davvero.png)
+    background-image: url(images/icono_campana_azul_davvero.png)
 }
 
 .unittag_azul_davvero .bck-dropdown.bck-dropdown-3 {
@@ -2278,15 +2278,15 @@ td,th {
 }
 
 .unittag_granate_davvero .item-container .icon-cesta-letras:before {
-    background-image: url(imagenes/icono_cesta_granate_davvero.png)
+    background-image: url(images/icono_cesta_granate_davvero.png)
 }
 
 .unittag_granate_davvero .item-container .icon-exclamacion-verde:before {
-    background-image: url(imagenes/icono_exclamacion_granate_davvero.png)
+    background-image: url(images/icono_exclamacion_granate_davvero.png)
 }
 
 .unittag_granate_davvero .item-container .icon-campana-verde:before {
-    background-image: url(imagenes/icono_campana_granate_davvero.png)
+    background-image: url(images/icono_campana_granate_davvero.png)
 }
 
 .unittag_granate_davvero .bck-enfasis-3 {
@@ -2294,7 +2294,7 @@ td,th {
 }
 
 .unittag_granate_davvero .bck-enfasis-3:before {
-    background-image: url(imagenes/icono_flecha_granate_davvero.png)
+    background-image: url(images/icono_flecha_granate_davvero.png)
 }
 
 .unittag_granate_davvero .bck-enfasis-5 {
@@ -2302,7 +2302,7 @@ td,th {
 }
 
 .unittag_granate_davvero .bck-enfasis-5:before {
-    background-image: url(imagenes/icono_exclamacion_granate_davvero.png)
+    background-image: url(images/icono_exclamacion_granate_davvero.png)
 }
 
 .unittag_granate_davvero .bck-enfasis-6 {
@@ -2310,7 +2310,7 @@ td,th {
 }
 
 .unittag_granate_davvero .bck-enfasis-6:before {
-    background-image: url(imagenes/icono_campana_granate_davvero.png)
+    background-image: url(images/icono_campana_granate_davvero.png)
 }
 
 .unittag_granate_davvero .bck-enfasis-8 {
