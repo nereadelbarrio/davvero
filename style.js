@@ -69,7 +69,7 @@
 				{ name: 'Icono Cesta letras', element: 'span', attributes: { 'class': 'icon icon-cesta-letras' } },
 				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion-verde' } },
 				{ name: 'Icono CF', element: 'span', attributes: { 'class': 'icon icon-cf' } },
-				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-ci' } },
+				{ name: 'Icono CI', element: 'span', attributes: { 'class': 'icon icon-ci' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
 				{ name: 'Icono Compare', element: 'span', attributes: { 'class': 'icon icon-compare' } },
 				{ name: 'Icono Grupo', element: 'span', attributes: { 'class': 'icon icon-grupo' } },
