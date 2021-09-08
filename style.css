@@ -736,17 +736,21 @@ color: #fff;
 }
 
 .bck-title-5 {
-    font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.8rem;
     border-bottom: none;
     border-radius: 0;
-    background: #000;
+    background: #F79432;
     color: #fff;
-    padding: 5px 15px;
+    padding: 9px 43px;
     display: block;
-    text-align: LEFT;
-    right: -82px;
-    width: auto
+    position: absolute;
+    right: 3px;
+    width: fit-content;
+    top: 33px;
+    border-radius: 9px 9px 0 9px;
+}
+
+
 }
 
 .bck-title-6 {
@@ -1974,7 +1978,7 @@ td,th {
 }
 
 .celda-1 {
-    background: #b5bfa4
+    background: #FFE17F;
 }
 
 .celda-1,.celda-2 {
