@@ -66,7 +66,7 @@
 
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
-				{ name: 'Icono Cesta letras', element: 'span', attributes: { 'class': 'icon icon-cesta-letras' } },
+				{ name: 'Icono Leer', element: 'span', attributes: { 'class': 'icon icon-leer' } },
 				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion-verde' } },
 				{ name: 'Icono CF', element: 'span', attributes: { 'class': 'icon icon-cf' } },
 				{ name: 'Icono CI', element: 'span', attributes: { 'class': 'icon icon-ci' } },
