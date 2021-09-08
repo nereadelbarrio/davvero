@@ -1887,18 +1887,20 @@ hr {
 
 .item-container .icon-cf:before {
     background-image: url(images/icono_CF.PNG);
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
     vertical-align: top;
-    margin-right: 5px
+    margin-right: 10px;
+    margin-left: -9px;
 }
 
-.item-container .icon-lapiz:before {
-    background-image: url(images/icono_CI.PNG);
-    width: 25px;
-    height: 25px;
+.item-container .icon-ci:before {
+	background-image: url(images/icono_CI.PNG);
+    width: 35px;
+    height: 33px;
     vertical-align: top;
-    margin-right: 5px
+    margin-right: 10px;
+    margin-top: 1px;
 }
 
 .item-container .icon-thefrenchhub:before {
