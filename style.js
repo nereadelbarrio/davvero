@@ -70,9 +70,9 @@
 				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion-verde' } },
 				{ name: 'Icono CF', element: 'span', attributes: { 'class': 'icon icon-cf' } },
 				{ name: 'Icono CI', element: 'span', attributes: { 'class': 'icon icon-ci' } },
-				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
-				{ name: 'Icono Compare', element: 'span', attributes: { 'class': 'icon icon-compare' } },
-				{ name: 'Icono Grupo', element: 'span', attributes: { 'class': 'icon icon-grupo' } },
+				{ name: 'Icono Conversar', element: 'span', attributes: { 'class': 'icon icon-conversar' } },
+				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
+				{ name: 'Icono Escribir', element: 'span', attributes: { 'class': 'icon icon-escribir' } },
 
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
