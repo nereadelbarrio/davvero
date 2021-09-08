@@ -186,6 +186,126 @@ defi > mcgraw*/
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberBold.eot');
+    src: url('fonts/GloberBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberBold.woff') format('woff'),
+        url('fonts/GloberBold.ttf') format('truetype'),
+        url('fonts/GloberBold.svg#GloberBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberBlack.eot');
+    src: url('fonts/GloberBlack.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberBlack.woff') format('woff'),
+        url('fonts/GloberBlack.ttf') format('truetype'),
+        url('fonts/GloberBlack.svg#GloberBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberBoldItalic.eot');
+    src: url('fonts/GloberBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberBoldItalic.woff') format('woff'),
+        url('fonts/GloberBoldItalic.ttf') format('truetype'),
+        url('fonts/GloberBoldItalic.svg#GloberBoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberLight.eot');
+    src: url('fonts/GloberLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberLight.woff') format('woff'),
+        url('fonts/GloberLight.ttf') format('truetype'),
+        url('fonts/GloberLight.svg#GloberLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober xBold';
+    src: url('fonts/GloberxBoldItalic.eot');
+    src: url('fonts/GloberxBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberxBoldItalic.woff') format('woff'),
+        url('fonts/GloberxBoldItalic.ttf') format('truetype'),
+        url('fonts/GloberxBoldItalic.svg#GloberxBoldItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberHeavy.eot');
+    src: url('fonts/GloberHeavy.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberHeavy.woff') format('woff'),
+        url('fonts/GloberHeavy.ttf') format('truetype'),
+        url('fonts/GloberHeavy.svg#GloberHeavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober Regular';
+    src: url('fonts/GloberRegularItalic.eot');
+    src: url('fonts/GloberRegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberRegularItalic.woff') format('woff'),
+        url('fonts/GloberRegularItalic.ttf') format('truetype'),
+        url('fonts/GloberRegularItalic.svg#GloberRegularItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober xBold';
+    src: url('fonts/GloberxBold.eot');
+    src: url('fonts/GloberxBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberxBold.woff') format('woff'),
+        url('fonts/GloberxBold.ttf') format('truetype'),
+        url('fonts/GloberxBold.svg#GloberxBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberSemiBold.eot');
+    src: url('fonts/GloberSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberSemiBold.woff') format('woff'),
+        url('fonts/GloberSemiBold.ttf') format('truetype'),
+        url('fonts/GloberSemiBold.svg#GloberSemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glober';
+    src: url('fonts/GloberRegular.eot');
+    src: url('fonts/GloberRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/GloberRegular.woff') format('woff'),
+        url('fonts/GloberRegular.ttf') format('truetype'),
+        url('fonts/GloberRegular.svg#GloberRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 #indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled) {
