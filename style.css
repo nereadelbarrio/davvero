@@ -1904,12 +1904,13 @@ hr {
     margin-right: 5px
 }
 
-.item-container .icon-cesta-letras:before {
-    background-image: url(images/icono_cesta_davvero.png);
-    width: 60px;
-    height: 60px;
+.item-container .icon-leer:before {
+    background-image: url(images/icono_leer.png);
+    width: 38px;
+    height: 37px;
     vertical-align: top;
-    margin-right: 5px
+    margin-right: 5px;
+    margin-top: -10px;
 }
 
 .item-container .icon-exclamacion-verde:before {
