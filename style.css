@@ -155,6 +155,189 @@ defi > mcgraw*/
     font-weight: 400;
     font-style: normal
 }
+/*------------------------------------------*/
+
+@font-face {
+    font-family: 'Eames Century Modern';
+    src: url('fonts/EamesCenturyModern-Bold.eot');
+    src: url('fonts/EamesCenturyModern-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EamesCenturyModern-Bold.woff') format('woff'),
+        url('fonts/EamesCenturyModern-Bold.ttf') format('truetype'),
+        url('fonts/EamesCenturyModern-Bold.svg#EamesCenturyModern-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern';
+    src: url('fonts/EamesCenturyModern-BoldItalic.eot');
+    src: url('fonts/EamesCenturyModern-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EamesCenturyModern-BoldItalic.woff') format('woff'),
+        url('fonts/EamesCenturyModern-BoldItalic.ttf') format('truetype'),
+        url('fonts/EamesCenturyModern-BoldItalic.svg#EamesCenturyModern-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern Book';
+    src: url('fonts/EamesCenturyModern-Book.eot');
+    src: url('fonts/EamesCenturyModern-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EamesCenturyModern-Book.woff') format('woff'),
+        url('fonts/EamesCenturyModern-Book.ttf') format('truetype'),
+        url('fonts/EamesCenturyModern-Book.svg#EamesCenturyModern-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern';
+    src: url('fonts/EamesCenturyModern-Medium.eot');
+    src: url('fonts/EamesCenturyModern-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EamesCenturyModern-Medium.woff') format('woff'),
+        url('fonts/EamesCenturyModern-Medium.ttf') format('truetype'),
+        url('fonts/EamesCenturyModern-Medium.svg#EamesCenturyModern-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern';
+    src: url('fonts/fonts/fonts/EamesCenturyModern-Regular.eot');
+    src: url('fonts/fonts/fonts/EamesCenturyModern-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fonts/fonts/EamesCenturyModern-Regular.woff') format('woff'),
+        url('fonts/fonts/fonts/EamesCenturyModern-Regular.ttf') format('truetype'),
+        url('fonts/fonts/fonts/EamesCenturyModern-Regular.svg#EamesCenturyModern-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern';
+    src: url('fonts/fonts/EamesCenturyModern-LightItalic.eot');
+    src: url('fonts/fonts/EamesCenturyModern-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fonts/EamesCenturyModern-LightItalic.woff') format('woff'),
+        url('fonts/fonts/EamesCenturyModern-LightItalic.ttf') format('truetype'),
+        url('fonts/fonts/EamesCenturyModern-LightItalic.svg#EamesCenturyModern-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Eames Century Modern Extra';
+    src: url('fonts/EamesCenturyModern-ExtraBold.eot');
+    src: url(fonts/'EamesCenturyModern-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/EamesCenturyModern-ExtraBold.woff') format('woff'),
+        url('fonts/EamesCenturyModern-ExtraBold.ttf') format('truetype'),
+        url('fonts/EamesCenturyModern-ExtraBold.svg#EamesCenturyModern-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-Extrabold.eot');
+    src: url('fonts/FranziskaPro-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Extrabold.woff') format('woff'),
+        url('fonts/FranziskaPro-Extrabold.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Extrabold.svg#FranziskaPro-Extrabold') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-Italic.eot');
+    src: url('fonts/FranziskaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Italic.woff') format('woff'),
+        url('fonts/FranziskaPro-Italic.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Italic.svg#FranziskaPro-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro-BookItalic';
+    src: url('fonts/FranziskaPro-BookItalic.eot');
+    src: url('fonts/FranziskaPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-BookItalic.woff') format('woff'),
+        url('fonts/FranziskaPro-BookItalic.ttf') format('truetype'),
+        url('fonts/FranziskaPro-BookItalic.svg#FranziskaPro-BookItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro-Book';
+    src: url('fonts/FranziskaPro-Book.eot');
+    src: url('fonts/FranziskaPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Book.woff') format('woff'),
+        url('fonts/FranziskaPro-Book.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Book.svg#FranziskaPro-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-BoldItalic.eot');
+    src: url('fonts/FranziskaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-BoldItalic.woff') format('woff'),
+        url('fonts/FranziskaPro-BoldItalic.ttf') format('truetype'),
+        url('fonts/FranziskaPro-BoldItalic.svg#FranziskaPro-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-Demibold.eot');
+    src: url('fonts/FranziskaPro-Demibold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Demibold.woff') format('woff'),
+        url('fonts/FranziskaPro-Demibold.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Demibold.svg#FranziskaPro-Demibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-Bold.eot');
+    src: url('fonts/FranziskaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Bold.woff') format('woff'),
+        url('fonts/FranziskaPro-Bold.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Bold.svg#FranziskaPro-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FranziskaPro';
+    src: url('fonts/FranziskaPro-DemiboldItalic.eot');
+    src: url('fonts/FranziskaPro-DemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-DemiboldItalic.woff') format('woff'),
+        url('fonts/FranziskaPro-DemiboldItalic.ttf') format('truetype'),
+        url('fonts/FranziskaPro-DemiboldItalic.svg#FranziskaPro-DemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+
 
 #indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled) {
     background-color: #333!important
@@ -571,9 +754,10 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 .bck-enfasis-1 {
-    color: #706f6f;
+    color: inherit;
     font-weight: 600;
-    font-size: 1.6rem
+    font-size: 4.6rem;
+    font-family: 'Eames Century Modern';
 }
 
 .bck-enfasis-2 {
