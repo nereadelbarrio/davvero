@@ -199,6 +199,7 @@ defi > mcgraw*/
     font-display: swap;
 }
 
+
 @font-face {
     font-family: 'Glober';
     src: url('fonts/GloberBlack.eot');
@@ -1889,18 +1890,17 @@ hr {
     background-image: url(images/icono_CF.PNG);
     width: 33px;
     height: 33px;
-    vertical-align: top;
     margin-right: 10px;
     margin-left: -9px;
+    margin-top: -8px;
 }
 
 .item-container .icon-ci:before {
 	background-image: url(images/icono_CI.PNG);
     width: 35px;
     height: 33px;
-    vertical-align: top;
     margin-right: 10px;
-    margin-top: 1px;
+    margin-top: -8px;
 }
 
 .item-container .icon-thefrenchhub:before {
