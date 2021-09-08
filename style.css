@@ -385,9 +385,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 body {
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
-    font-family: Conv_Stag-Sans
+    font-family: 'Glober';
 }
 
 .slide-wrapper,body {
@@ -670,9 +670,10 @@ color: #fff;
 }
 
 .bck-title-2 {
-    font-weight: 400;
-    font-size: 6rem;
-    border-bottom: none
+    font-weight: bold;
+    font-size: 4rem;
+    border-bottom: none;
+    font-family: 'Eames Century Modern';
 }
 
 .bck-title-3 {
@@ -866,33 +867,44 @@ color: #fff;
     margin-bottom: 0
 }
 
-#actividad .content .cke_contents .bck-ol-1,#actividad .content .texto_curso .bck-ol-1,#actividad .content .workspace ul li .bck-ol-1 {
+/*Lista ordenada 1*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ul li .bck-ol-1 {
     list-style-type: none;
-    counter-reset: bck-li-counter
+    counter-reset: bck-li-counter;
+    font-family: 'Glober';
+    margin-left: -11px;
 }
 
-#actividad .content .cke_contents .bck-ol-1 li,#actividad .content .texto_curso .bck-ol-1 li,#actividad .content .workspace ul li .bck-ol-1 li,#actividad .popover-content .bck-ol-1 li {
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li {
     counter-increment: bck-li-counter;
     padding-left: 0;
     position: relative;
     z-index: 0;
-    font-weight: 500;
-    font-family: Conv_Stag
+    font-weight: 600;
+    font-family: 'Glober';
 }
 
-#actividad .content .cke_contents .bck-ol-1 li:before,#actividad .content .texto_curso .bck-ol-1 li:before,#actividad .content .workspace ul li .bck-ol-1 li:before,#actividad .popover-content .bck-ol-1 li:before {
-    margin-left: -13px;
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before {
+    margin-left: -14px;
     content: counter(bck-li-counter) ".";
-    font-family: Conv_Stag-Sans;
+    font-family: 'Glober';
     font-weight: 800;
     position: absolute;
     text-align: right;
-    color: #2b7239;
+    color: #00B7BD;
     font-size: 2rem;
     width: 31px;
     margin-top: 0;
     left: -25px;
-    top: 0
+    top: 0;
 }
 
 #actividad .content .cke_contents .bck-ol-2,#actividad .content .texto_curso .bck-ol-2,#actividad .content .workspace ul li .bck-ol-2 {
