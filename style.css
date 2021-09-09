@@ -345,6 +345,30 @@ defi > mcgraw*/
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'TTMasters';
+    src: url('fonts/TTMasters-Regular.eot');
+    src: url('fonts/TTMasters-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TTMasters-Regular.woff') format('woff'),
+        url('fonts/TTMasters-Regular.ttf') format('truetype'),
+        url('fonts/TTMasters-Regular.svg#TTMasters-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTMasters';
+    src: url('fonts/TTMasters-Black.eot');
+    src: url('fonts/TTMasters-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TTMasters-Black.woff') format('woff'),
+        url('fonts/TTMasters-Black.ttf') format('truetype'),
+        url('fonts/TTMasters-Black.svg#TTMasters-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 
@@ -819,28 +843,14 @@ display: none;
 }
 
 .bck-enfasis-8 {
-    color: #333;
-    background-color: #dbded2;
-    padding: 7px 10px 5px 25px
+    font-family: 'TTMasters';
+    color: #EF3C56;
 }
 
-.bck-enfasis-8:before {
-    content: "";
-    background-color: #f5f1e8;
-    padding: 9px;
-    border-radius: 100%;
-    position: absolute;
-    margin-left: -28px;
-    margin-top: 2px
-}
 
 .bck-enfasis-9 {
-    color: #fff;
-    background-color: #82368c;
-    border-radius: 5px;
-    padding: 3px 8px;
-    font-family: Conv_Stag-Sans;
-    font-weight: 600
+background-color: #FFF34D;
+    padding: 3px 0px 0px 0px;
 }
 
 .bck-enfasis-10,.bck-enfasis-11 {
