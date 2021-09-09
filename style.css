@@ -653,7 +653,7 @@ body.is_app .davvero-navbar.ocultar {
     background-repeat: no-repeat;
     border-radius: 100%;
     margin: 0 2px;
-    vertical-align: sub
+    vertical-align: bottom;
 }
 
 .bck-file-label,.bck-sub-label {
