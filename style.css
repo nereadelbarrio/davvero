@@ -736,18 +736,7 @@ color: #fff;
 }
 
 .bck-title-5 {
-    font-size: 1.8rem;
-    border-bottom: none;
-    border-radius: 0;
-    background: #F79432;
-    color: #fff;
-    padding: 9px 43px;
-    /*display: block;
-    position: absolute;
-    right: 3px;*/
-    width: fit-content;
-    top: 33px;
-    border-radius: 9px 9px 0 9px;
+    
 }
 
 
@@ -818,18 +807,15 @@ color: #fff;
 .bck-enfasis-7 {
     font-weight: 700;
     color: #fff;
-    background-color: #000;
-    padding: 7px 10px 5px
+    background-color: #F79432;
+    padding: 7px 11px 5px;
+    font-size: 1.8rem;
+    border-radius: 9px 9px 0 9px;
+    border-right: 3px solid #fff;
 }
 
 .bck-enfasis-7:after {
-    content: "";
-    background-color: #000;
-    padding: 9px;
-    border-radius: 100%;
-    position: absolute;
-    margin-left: 6px;
-    margin-top: 2px
+display: none;
 }
 
 .bck-enfasis-8 {
@@ -1339,18 +1325,21 @@ color: #fff;
     padding: 10px
 }
 
-.bck-box-1 .bck-title:before,.bck-box.bck-box-1:after,.bck-box.bck-box-1:before {
+.bck-box-1 .bck-title:before,
+.bck-box.bck-box-1:after,
+.bck-box.bck-box-1:before {
     display: none
 }
 
 .bck-box .bck-box-1 {
-    background-color: #f1ebde;
-    border: none
+	min-height: 80px;
+    margin-top: 15px;
+    padding-bottom: 0px;
 }
 
 .bck-box.bck-box-1 .bck-content {
-    padding: 25px 15px 15px 60px;
-    border: none
+    padding: 0;
+    border: none;
 }
 
 .bck-box.bck-box-1 .bck-content:before {
@@ -2792,4 +2781,12 @@ a:hover {
 
 .navbar .recursos .filter a {
     width: 26px
+}
+
+
+
+/***************/
+.bck-t-align-right {
+    text-align: right !important;
+    padding-bottom: 2px;
 }
