@@ -638,7 +638,7 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 #actividad .player.audio {
-    background-image: url(images/icono_audio_davvero.png);
+    background-image: url(images/icono_audio.PNG);
     color: #fff
 }
 
@@ -767,13 +767,17 @@ color: #fff;
     font-size: 1.5rem;
     background-color: #DBF1F3;
     padding: 0 5px 0 5px;
+        width: fit-content;
 }
 
 .bck-title-5:before {
     font-family: 'FontAwesome';
-    content: '\f2ec';
-    color: red;
-    font-size: 2rem;
+    content: '\f0d8';
+    color: #00B7BD;
+    font-size: 3rem;
+    font-style: normal;
+    padding: 0px 5px 0px 0px;
+    vertical-align: sub;
 }
 
 
