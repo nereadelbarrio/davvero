@@ -638,13 +638,17 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 #actividad .player.audio {
-    background-image: url(images/icono_audio.PNG);
-    color: #fff
+    background: url(images/icono_audio.PNG) center center / cover;
+    color: #fff;
+    background-position: 0px -1px;
 }
 
-#actividad .content img.player,#actividad .player.audio,#actividad .player.video,#help-panel-content .player,#remote-alert-modal-rich .player {
-    height: 30px!important;
-    width: 30px;
+#actividad .content img.player,
+#actividad .player.audio,
+#actividad .player.video,#help-panel-content .player
+,#remote-alert-modal-rich .player {
+    height: 32px!important;
+    width: 32px;
     display: inline-block;
     background-repeat: no-repeat;
     border-radius: 100%;
