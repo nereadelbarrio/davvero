@@ -1415,26 +1415,31 @@ background-color: #FFF34D;
     width: 70%;
     font-family: 'Eames Century Modern';
     font-size: 2.1rem;
-    border-radius: 10px;
-    display: block;
+    border-radius: 6px;
+    display: inline-block;
     position: relative;
     z-index: 1;
     top: 38px;
-    left: 60px;
+    left: 50px;
 }
 
 .bck-box.bck-box-2 > .bck-title:before {
     background: url(images/icono_caja_02.PNG);
-    content: "";
+	content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 32px 33px 0 24px;
+    padding: 64px 18px 0 24px;
     position: relative;
-    left: -68px;
+    left: -70px;
     z-index: 100;
-    top: 35px;
-    width: 10px;
+    top: 42px;
+    width: 30px;
     margin-top: -6px;
+}
+
+.bck-box.bck-box-2 > .bck-title p {
+    width: auto;
+    margin-left: -55px;
 }
 
 /*caja 3*/
