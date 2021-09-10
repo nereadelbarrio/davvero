@@ -875,7 +875,7 @@ background-color: #FFF34D;
 .bck-enfasis-10,.bck-enfasis-11 {
     font-family: 'Eames Century Modern';
     color: #A0948A;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
 }
 
 .bck-enfasis-11 {
@@ -1358,7 +1358,7 @@ background-color: #FFF34D;
 
 /*caja 1*/
 
-.bck-box-1 .bck-title:before,
+.bck-box-1 > .bck-title:before,
 .bck-box.bck-box-1:after,
 .bck-box.bck-box-1:before {
     display: none
@@ -1370,12 +1370,12 @@ background-color: #FFF34D;
     padding-bottom: 0px;
 }
 
-.bck-box.bck-box-1 .bck-content {
+.bck-box.bck-box-1 > .bck-content {
     padding: 0;
     border: none;
 }
 
-.bck-box.bck-box-1 .bck-content:before {
+.bck-box.bck-box-1 > .bck-content:before {
     content: "";
     background-image: url(images/icono_bocadillo_marron_davvero.png);
     background-size: contain;
@@ -1398,36 +1398,31 @@ background-color: #FFF34D;
     background: none
 }
 
-.bck-box.bck-box-2 .bck-content {
-    font-family: Conv_FarnhamText;
-    color: #333;
-    background: #e2eef5;
+.bck-box.bck-box-2 > .bck-content {
+background: #F6D1CA;
     padding: 20px;
-    border-radius: 0
+    border-radius: 5px;
 }
 
-.bck-box.bck-box-2 .bck-content p {
+.bck-box.bck-box-2 > .bck-content p {
     margin-bottom: 5px
 }
 
-.bck-box.bck-box-2 .bck-title {
-    color: #333;
-    background: #6caac7;
-    padding: 15px 20px 10px
+.bck-box.bck-box-2 > .bck-title {
+	color: #fff;
+    background: #DA1E48;
+    padding: 15px 20px 10px;
+    width: fit-content;
+    font-family: 'Eames Century Modern';
+    font-size: 2.1rem;
+    border-radius: 10px;
 }
 
-.bck-box.bck-box-2 .bck-title:after {
-    content: "+";
-    font-size: 3rem;
-    position: relative;
-    right: 0;
-    margin-right: 25px;
-    margin-top: -24px;
-    display: block;
-    text-align: right
+.bck-box.bck-box-2 > .bck-title:after {
+    display: none;
 }
 
-.bck-box.bck-box-2 .bck-title:before {
+.bck-box.bck-box-2 > .bck-title:before {
     display: none
 }
 
