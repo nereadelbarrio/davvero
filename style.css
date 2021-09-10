@@ -1437,15 +1437,6 @@ background-color: #FFF34D;
     margin-top: -6px;
 }
 
-.bck-box.bck-box-2 > .bck-title:after {
-    display: none;
-}
-
-.bck-box.bck-box-2 > .bck-title:before {
-    display: none
-}
-
-
 /*caja 3*/
 .bck-box.bck-box-3 {
     background: transparent;
