@@ -1368,7 +1368,7 @@ background-color: #FFF34D;
 
 /*caja 1*/
 
-.bck-box-1 > .bck-title:before,
+.bck-box-1>.bck-title:before,
 .bck-box.bck-box-1:after,
 .bck-box.bck-box-1:before {
     display: none
@@ -1380,12 +1380,12 @@ background-color: #FFF34D;
     padding-bottom: 0px;
 }
 
-.bck-box.bck-box-1 > .bck-content {
+.bck-box.bck-box-1>.bck-content {
     padding: 0;
     border: none;
 }
 
-.bck-box.bck-box-1 > .bck-content:before {
+.bck-box.bck-box-1>.bck-content:before {
     content: "";
     background-image: url(images/icono_bocadillo_marron_davvero.png);
     background-size: contain;
@@ -1408,17 +1408,17 @@ background-color: #FFF34D;
     background: none
 }
 
-.bck-box.bck-box-2 > .bck-content {
+.bck-box.bck-box-2>.bck-content {
 	background: #F6D1CA;
     padding: 76px 20px 20px 20px;
     border-radius: 10px;
 }
 
-.bck-box.bck-box-2 > .bck-content p {
+.bck-box.bck-box-2>.bck-content p {
     margin-bottom: 5px
 }
 
-.bck-box.bck-box-2 > .bck-title {
+.bck-box.bck-box-2>.bck-title {
 	color: #fff;
     background: #DA1E48;
     padding: 15px 20px 10px;
@@ -1433,7 +1433,7 @@ background-color: #FFF34D;
     left: 50px;
 }
 
-.bck-box.bck-box-2 > .bck-title:before {
+.bck-box.bck-box-2>.bck-title:before {
     background: url(images/icono_caja_02.PNG);
 	content: "";
     background-size: contain;
@@ -1447,7 +1447,7 @@ background-color: #FFF34D;
     margin-top: -6px;
 }
 
-.bck-box.bck-box-2 > .bck-title p {
+.bck-box.bck-box-2>.bck-title p {
     width: auto;
     margin-left: -55px;
 }
@@ -1460,18 +1460,18 @@ background-color: #FFF34D;
     border-radius: 0
 }
 
-.bck-box.bck-box-3 > .bck-content {
+.bck-box.bck-box-3>.bck-content {
     padding: 20px 20px 20px 0;
     border-radius: 0;
     background: transparent;
     font-size: 1.6rem
 }
 
-.bck-box.bck-box-3 > .bck-content p {
+.bck-box.bck-box-3>.bck-content p {
     margin-bottom: 5px
 }
 
-.bck-box.bck-box-3 > .bck-content:before {
+.bck-box.bck-box-3>.bck-content:before {
     content: "";
     position: absolute;
     height: 1px;
@@ -1481,7 +1481,7 @@ background-color: #FFF34D;
     background: #000
 }
 
-.bck-box.bck-box-3 > .bck-title {
+.bck-box.bck-box-3>.bck-title {
     padding: 20px;
     border: 0;
     color: #333;
@@ -1489,10 +1489,11 @@ background-color: #FFF34D;
     border-radius: 0
 }
 
-.bck-box-3 > .bck-title:before {
+.bck-box-3>.bck-title:before {
     display: none
 }
 
+/*caja 4*/
 .bck-box.bck-box-4 {
     background: #fff;
     border: none;
@@ -1503,43 +1504,51 @@ background-color: #FFF34D;
     margin-bottom: 40px
 }
 
-.bck-box-4 > .bck-title {
+.bck-box-4>.bck-title {
     border: 0;
     padding: 15px 20px 5px; 
     background: #fff;
     border-radius: 0
 }
 
-.bck-box-4 > .bck-title:after {
+.bck-box-4>.bck-title:after {
     display: none
 }
 
-.bck-box.bck-box-4 > .bck-content {
+.bck-box.bck-box-4>.bck-content {
     padding: 40px 20px;
     border-radius: 0;
     border: none
 }
 
-.bck-box.bck-box-4 > .bck-title:before {
+.bck-box.bck-box-4>.bck-title:before {
     display: none
 }
 
+/*caja 5*/
 .bck-box.bck-box-5 {
     min-height: 0;
     background-color: #fff;
     border-radius: 0
 }
 
-.bck-box-5 > .bck-title {
+.bck-box-5>.bck-title {
     border-bottom: none;
     color: #fff;
-    font-size: 1.8rem;
-    background-color: #2b7239;
-    padding: 20px;
-    text-align: left
+    font-size: 1.6rem;
+    background-color: #231F20;
+    padding: 10px 20px;
+    width: fit-content;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    right: -226px;
+    border-radius: 10px;
+    font-family: 'Eames Century Modern';
 }
 
-.bck-box-5 > .bck-title:before {
+.bck-box-5>.bck-title:before {
     content: "";
     position: absolute;
     padding: 43px;
@@ -1552,17 +1561,32 @@ background-color: #FFF34D;
     z-index: 1
 }
 
-.bck-box-5 > .bck-title p {
-    margin-bottom: 5px
+.bck-box-5>.bck-title p {
+    margin-bottom: 0px
 }
 
-.bck-box-5 > .bck-content {
-    border: 3px dashed #2b7239;
-    font-family: Conv_Stag;
-    padding: 20px
+.bck-box-5>.bck-content {
+	border: none;
+    font-family: 'Eames Century Modern Book';
+    background-color: #BFE6E8;
+    border-radius: 5px;
+    padding: 10px 10px 10px 85px;
 }
 
-.bck-box-6 > .bck-title:before {
+.bck-box-5>.bck-content:before {
+    content: "";
+    position: absolute;
+    padding: 43px;
+    background-image: url(images/icono_diana_davvero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -15px;
+    margin-right: 25px;
+    right: 0;
+    z-index: 1
+}
+
+.bck-box-6>.bck-title:before {
     display: none
 }
 
@@ -1570,7 +1594,7 @@ background-color: #FFF34D;
     margin-top: 20px
 }
 
-.bck-box-6 > .bck-title {
+.bck-box-6>.bck-title {
     color: #333;
     font-size: 1.8rem;
     font-weight: 800;
@@ -1580,7 +1604,7 @@ background-color: #FFF34D;
     border-bottom: none
 }
 
-.bck-box-6 > .bck-content {
+.bck-box-6>.bck-content {
     background: #ffe8b5;
     border-bottom: none
 }
@@ -1598,7 +1622,7 @@ background-color: #FFF34D;
     box-shadow: 0 20px 0 -10px #fffefe,0 -20px 0 -10px #fff,21px 0 0 -10px #fff,-21px 0 0 -10px #fff,0 0 0 5px #2b7239,5px 5px 5px 0 transparent
 }
 
-.bck-box-7 > .bck-title {
+.bck-box-7>.bck-title {
     color: #333;
     font-size: 1.8rem;
     font-weight: 800;
@@ -1608,14 +1632,14 @@ background-color: #FFF34D;
     border-bottom: none
 }
 
-.bck-box-7 > .bck-content {
+.bck-box-7>.bck-content {
     padding: 10px;
     background-color: #fff;
     border-radius: 0;
     font-family: Conv_Stag
 }
 
-.bck-box-8 > .bck-title:before {
+.bck-box-8>.bck-title:before {
     display: none
 }
 
@@ -1625,7 +1649,7 @@ background-color: #FFF34D;
     background: none
 }
 
-.bck-box-8 > .bck-title {
+.bck-box-8>.bck-title {
     color: #fff;
     font-weight: 700;
     text-align: left;
@@ -1635,7 +1659,7 @@ background-color: #FFF34D;
     font-size: 1.8rem
 }
 
-.bck-box-8 > .bck-content {
+.bck-box-8>.bck-content {
     text-align: left;
     background: #dbded2;
     border-radius: 0;
@@ -1656,7 +1680,7 @@ background-color: #FFF34D;
     margin-bottom: 40px
 }
 
-.bck-box-9 > .bck-title {
+.bck-box-9>.bck-title {
     border: 0;
     padding: 15px 20px 5px;
     background: #f8f5ef;
@@ -1664,7 +1688,7 @@ background-color: #FFF34D;
     text-align: left
 }
 
-.bck-box-9 > .bck-title:after {
+.bck-box-9>.bck-title:after {
     display: none
 }
 
@@ -1674,7 +1698,7 @@ background-color: #FFF34D;
     border: none
 }
 
-.bck-box.bck-box-9 > .bck-title:before {
+.bck-box.bck-box-9>.bck-title:before {
     display: none
 }
 
@@ -1685,7 +1709,7 @@ background-color: #FFF34D;
     border-radius: 0
 }
 
-.bck-box-10 > .bck-title {
+.bck-box-10>.bck-title {
     border: 0;
     padding: 15px 20px 5px;
     background: #2b7239;
@@ -1694,11 +1718,11 @@ background-color: #FFF34D;
     color: #fff
 }
 
-.bck-box-10 > .bck-title:after {
+.bck-box-10>.bck-title:after {
     display: none
 }
 
-.bck-box.bck-box-10 > .bck-content {
+.bck-box.bck-box-10>.bck-content {
     padding: 10px 20px;
     border-radius: 0;
     border: none;
@@ -1706,7 +1730,7 @@ background-color: #FFF34D;
     color: #fff
 }
 
-.bck-box.bck-box-10 > .bck-title:before {
+.bck-box.bck-box-10>.bck-title:before {
     display: none
 }
 
