@@ -1399,8 +1399,8 @@ background-color: #FFF34D;
 }
 
 .bck-box.bck-box-2 > .bck-content {
-background: #F6D1CA;
-    padding: 20px;
+    background: #F6D1CA;
+    padding: 65px 20px;
     border-radius: 5px;
 }
 
@@ -1412,10 +1412,29 @@ background: #F6D1CA;
 	color: #fff;
     background: #DA1E48;
     padding: 15px 20px 10px;
-    width: fit-content;
+    width: 70%;
     font-family: 'Eames Century Modern';
     font-size: 2.1rem;
     border-radius: 10px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    top: 38px;
+    left: 60px;
+}
+
+.bck-box.bck-box-2 > .bck-title:before {
+    background: url(images/icono_caja_02.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 32px 33px 0 24px;
+    position: relative;
+    left: -68px;
+    z-index: 100;
+    top: 35px;
+    width: 10px;
+    margin-top: -6px;
 }
 
 .bck-box.bck-box-2 > .bck-title:after {
