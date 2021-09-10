@@ -973,26 +973,36 @@ background-color: #FFF34D;
     padding-top: 2px;
 }
 
-#actividad .content .cke_contents .bck-ol-3,#actividad .content .texto_curso .bck-ol-3,#actividad .content .workspace ul li .bck-ol-3 {
+/*Lista ordenada 3*/
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
     list-style-type: none;
     counter-reset: bck-li-counter
 }
 
-#actividad .content .cke_contents .bck-ol-3 li,#actividad .content .texto_curso .bck-ol-3 li,#actividad .content .workspace ul li .bck-ol-3 li,#actividad .popover-content .bck-ol-3 li {
-    padding-left: 0
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li {
+    padding-left: 0;
+    font-weight: 600;
 }
 
-#actividad .content .cke_contents .bck-ol-3 li:before,#actividad .content .texto_curso ol.bck-ol-3 li:before,#actividad .content .workspace ul li ol.bck-ol-3 li:before,#actividad .popover-content ol.bck-ol-3 li:before {
-    content: counter(bck-li-counter,upper-alpha) ".";
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+#actividad .content .workspace ul li ol.bck-ol-3 li:before,
+#actividad .popover-content ol.bck-ol-3 li:before {
+	content: counter(bck-li-counter,lower-alpha) ".";
     position: absolute;
-    color: #2b7239;
-    font-size: 1.8rem;
-    font-weight: 700;
+    color: #da1e48;
+    font-size: 1.9rem;
+    font-weight: 900;
     text-align: right;
     left: -20px;
     font-family: inherit;
     margin: 0 0 0 -3px;
-    width: inherit
+    width: inherit;
 }
 
 #actividad .content .cke_contents .bck-ol-4,#actividad .content .texto_curso .bck-ol-4,#actividad .content .workspace ul li .bck-ol-4 {
