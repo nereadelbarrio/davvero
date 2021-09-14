@@ -1561,7 +1561,7 @@ background-color: #FFF34D;
     font-family: 'Eames Century Modern Book';
     background-color: #BFE6E8;
     border-radius: 5px;
-    padding: 10px 10px 10px 85px;
+    padding: 10px 30px 10px 60px;
 }
 
 .bck-box.bck-box-5>.bck-content:before {
@@ -1569,14 +1569,20 @@ background-color: #FFF34D;
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 64px 18px 0 24px;
+    padding: 22px 18px 0 24px;
     position: relative;
-    left: -70px;
+    left: -50px;
     z-index: 100;
-    top: 42px;
+    top: 0px;
     width: 30px;
     margin-top: -6px;
 }
+
+.bck-box.bck-box-5>.bck-content p {
+    margin-left: -40px;
+}
+
+
 /*caja 6*/
 .bck-box.bck-box-6>.bck-title:before {
     display: none
