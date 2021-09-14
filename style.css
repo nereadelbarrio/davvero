@@ -1528,7 +1528,7 @@ background-color: #FFF34D;
 /*caja 5*/
 .bck-box.bck-box-5 {
     min-height: 0;
-    background-color: #fff;
+    background-color: transparent;
     border-radius: 0
 }
 
@@ -1544,21 +1544,8 @@ background-color: #FFF34D;
     z-index: 1;
     top: 0px;
     right: -226px;
-    border-radius: 10px;
+    border-radius: 5px 5px 0 5px;
     font-family: 'Eames Century Modern';
-}
-
-.bck-box.bck-box-5>.bck-title:before {
-    content: "";
-    position: absolute;
-    padding: 43px;
-    background-image: url(images/icono_diana_davvero.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -15px;
-    margin-right: 25px;
-    right: 0;
-    z-index: 1
 }
 
 .bck-box.bck-box-5>.bck-title p {
@@ -1586,6 +1573,19 @@ background-color: #FFF34D;
     z-index: 1
 }
 
+.bck-box.bck-box-5>.bck-content:before {
+    background: url(images/icono_caja_05.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 64px 18px 0 24px;
+    position: relative;
+    left: -70px;
+    z-index: 100;
+    top: 42px;
+    width: 30px;
+    margin-top: -6px;
+}
 /*caja 6*/
 .bck-box.bck-box-6>.bck-title:before {
     display: none
