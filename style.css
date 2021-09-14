@@ -885,9 +885,8 @@ background-color: #FFF34D;
 }
 
 .bck-enfasis-11 {
-    background-color: #e6dedf;
-    border-radius: 5px;
-    padding: 3px 8px
+    font-family: 'TTMasters';
+    color: #0067B3;
 }
 
 #actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
@@ -1620,6 +1619,11 @@ padding: 1px 1px;
     top: 7px;
     width: 30px;
     margin-top: -6px;
+}
+
+.bck-box.bck-box-6>.bck-content p {
+    /* margin-left: auto; */
+    padding: 0px 13px 0px 0px;
 }
 
 .bck-box.bck-box-6 {
