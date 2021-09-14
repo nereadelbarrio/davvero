@@ -404,7 +404,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border-bottom: 2px dotted #959595;
     background: #fff
 }
 
@@ -577,7 +577,12 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not
 }
 
 .slide_main .html-book input {
-    background: #fff
+    background: #ffffff61;
+    background: #ffffff61;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px dotted #959595;
+    border-top: none;
 }
 
 .davvero-navbar {
