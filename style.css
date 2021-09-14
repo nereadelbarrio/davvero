@@ -1457,40 +1457,33 @@ background-color: #FFF34D;
     background: transparent;
     border: none;
     text-align: left;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .bck-box.bck-box-3>.bck-content {
-    padding: 20px 20px 20px 0;
-    border-radius: 0;
-    background: transparent;
-    font-size: 1.6rem
+	padding: 20px 27px;
+    background: #fff;
+    border: 3px solid #bdbec1;
+    border-radius: 0 0 15px 15px;
 }
 
 .bck-box.bck-box-3>.bck-content p {
     margin-bottom: 5px
 }
 
-.bck-box.bck-box-3>.bck-content:before {
-    content: "";
-    position: absolute;
-    height: 1px;
-    width: 20%;
-    margin-top: -10px;
-    left: 0;
-    background: #000
-}
-
 .bck-box.bck-box-3>.bck-title {
-    padding: 20px;
     border: 0;
-    color: #333;
-    background: transparent;
-    border-radius: 0
-}
-
-.bck-box-3>.bck-title:before {
-    display: none
+    color: #fff;
+    border-radius: 0;
+    content: " ";
+    background-repeat: no-repeat;
+    position: relative;
+    background: url(images/icono_caja_03.PNG);
+    padding: 0 0 7px;
+    background-size: cover;
+    top: 2px;
+    left: 0;
+    width: 100%;
 }
 
 /*caja 4*/
