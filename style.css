@@ -1548,6 +1548,10 @@ background-color: #FFF34D;
     font-family: 'Eames Century Modern';
 }
 
+.bck-box.bck-box-5>.bck-title:before {
+    display: none
+}
+
 .bck-box.bck-box-5>.bck-title p {
     margin-bottom: 0px
 }
@@ -1558,19 +1562,6 @@ background-color: #FFF34D;
     background-color: #BFE6E8;
     border-radius: 5px;
     padding: 10px 10px 10px 85px;
-}
-
-.bck-box.bck-box-5>.bck-content:before {
-    content: "";
-    position: absolute;
-    padding: 43px;
-    background-image: url(images/icono_diana_davvero.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -15px;
-    margin-right: 25px;
-    right: 0;
-    z-index: 1
 }
 
 .bck-box.bck-box-5>.bck-content:before {
