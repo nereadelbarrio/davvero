@@ -1565,13 +1565,13 @@ background-color: #FFF34D;
 }
 
 .bck-box.bck-box-5>.bck-content:before {
-    background: url(images/icono_caja_06.PNG);
+    background: url(images/icono_caja_05.PNG);
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
     padding: 36px 28px 0 25px;
     position: relative;
-    left: -11px;
+    left: -49px;
     z-index: 100;
     top: 7px;
     width: 30px;
@@ -1604,6 +1604,20 @@ background-color: #FFF34D;
 
 .bck-box.bck-box-6>.bck-content {
     padding: 14px 10px 10px 25px;
+}
+
+.bck-box.bck-box-6>.bck-content:before {
+    background: url(images/icono_caja_06.PNG);
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 36px 28px 0 25px;
+    position: relative;
+    left: -11px;
+    z-index: 100;
+    top: 7px;
+    width: 30px;
+    margin-top: -6px;
 }
 
 .bck-box.bck-box-6 {
