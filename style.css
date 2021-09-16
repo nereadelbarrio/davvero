@@ -888,6 +888,13 @@ background-color: #FFF34D;
     color: #0067B3;
 }
 
+.bck-enfasis-12 {
+	background-color: #E7E7DD;
+    padding: 6px 16px 2px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
 #actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
     content: counter(bck-li-counter);
     position: relative;
