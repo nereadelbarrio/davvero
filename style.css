@@ -1060,7 +1060,7 @@ background-color: #FFF34D;
 #actividad .content .texto_curso .bck-ol-5,
 #actividad .content .workspace ul li .bck-ol-5 {
     list-style-type: none;
-    counter-reset: bck-li-counter
+    counter-reset: bck-li-counter;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li,
@@ -1068,8 +1068,9 @@ background-color: #FFF34D;
 #actividad .content .texto_curso .bck-ol-5 li,
 #actividad .popover-content .bck-ol-5 li,
 #actividad .content .workspace ul li .bck-ol-5 li {
-list-style-type: none;
-    counter-reset: bck-li-counter;
+	counter-increment: bck-li-counter;
+	padding-left: 0px;
+	z-index: 0;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li:before,
@@ -1088,6 +1089,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
     width: inherit;
 }
 
+/*Lista ordenada 6*/
 #actividad .content .cke_contents .bck-ol-6,#actividad .content .texto_curso .bck-ol-6,#actividad .content .workspace ul li .bck-ol-6 {
     list-style-type: none;
     counter-reset: bck-li-counter
