@@ -897,6 +897,10 @@ background-color: #FFF34D;
     display: inline-block;
 }
 
+.bck-enfasis-13 {
+font-family: 'Eames Century Modern Book';
+}
+
 #actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
     content: counter(bck-li-counter);
     position: relative;
