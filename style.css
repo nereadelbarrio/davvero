@@ -1026,9 +1026,10 @@ background-color: #FFF34D;
 }
 
 #actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .cke_contents .bck-ol-4 li,
 #actividad .content .texto_curso .bck-ol-4 li,
-#actividad .content .workspace ul li .bck-ol-4 li,
-#actividad .popover-content .bck-ol-4 li {
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
     counter-increment: bck-li-counter;
     padding-left: 5px;
     position: relative;
@@ -1063,9 +1064,10 @@ background-color: #FFF34D;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
 #actividad .content .texto_curso .bck-ol-5 li,
-#actividad .content .workspace ul li .bck-ol-5 li,
-#actividad .popover-content .bck-ol-5 li {
+#actividad .popover-content .bck-ol-5 li,
+#actividad .content .workspace ul li .bck-ol-5 li {
 list-style-type: none;
     counter-reset: bck-li-counter;
 }
