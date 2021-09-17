@@ -76,6 +76,7 @@
 				{ name: 'Icono Conversar', element: 'span', attributes: { 'class': 'icon icon-conversar' } },
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Escribir', element: 'span', attributes: { 'class': 'icon icon-escribir' } },
+				{ name: 'Icono Info', element: 'span', attributes: { 'class': 'icon icon-info' } },
 
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
