@@ -787,7 +787,7 @@ color: #fff;
     vertical-align: sub;
 }
 
-.bck-title-6 {
+/*.bck-title-6 {
     background-color: #B08B7B;
     font-family: 'Eames Century Modern';
     font-size: 4.1rem;
@@ -797,7 +797,7 @@ color: #fff;
     color: #fff;
     font-style: italic;
     border-radius: 0 10px 10px 0;
-}
+}*/
 
 
 .bck-title-7 {
@@ -2193,6 +2193,17 @@ td,th {
 
 
 /*activity_tag*/
+.activity_tag_video .bck-title-4 {
+    background-color: #B08B7B;
+    font-family: 'Eames Century Modern';
+    font-size: 4.1rem;
+    padding: 8px 8px 8px 0px;
+    margin-left: 0;
+    font-weight: 600;
+    color: #fff;
+    font-style: italic;
+    border-radius: 0 10px 10px 0;
+}
 
 
  /**/
