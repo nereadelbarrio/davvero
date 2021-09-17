@@ -2134,7 +2134,7 @@ hr {
 }
 
 .bck-table,table {
-    border: 1px solid #ccc
+    border: 1px solid rgb(255 255 255 / 15%);
 }
 
 .bck-table td,table td {
@@ -2215,6 +2215,7 @@ td,th {
 
 
 /*activitytag*/
+/**----------activitytag_davvero_video------------**/
 .activitytag_davvero_video .bck-title-4 {
     background-color: #AF8C7C;
 }
@@ -2230,6 +2231,11 @@ td,th {
 .activitytag_davvero_video .bck-enfasis-12 {
 	box-shadow: 0px 3px 4px 1px #d7d3d2;
 	background-color: #FFFFFF;
+}
+
+/**----------activitytag_davvero_GRAMATICA------------**/
+.activitytag_davvero_video .bck-title-4 {
+    background-color: #AF8C7C;
 }
 
  /**/
