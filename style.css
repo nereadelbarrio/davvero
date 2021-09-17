@@ -876,7 +876,7 @@ display: none;
 
 .bck-enfasis-9 {
 background-color: #FFF34D;
-    padding: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 .bck-enfasis-10,.bck-enfasis-11 {
@@ -2214,9 +2214,23 @@ td,th {
 }
 
 
-/*activity_tag*/
+/*activitytag*/
+.activitytag_davvero_video .bck-title-4 {
+    background-color: #AF8C7C;
+}
 
+.activitytag_davvero_video .item-container .icon-conversar:before {
+	background-image: url(images/icono_conversar_marron.png);
+}
 
+.activitytag_davvero_video .item-container .icon-escribir:before {
+	background-image: url(images/icono_escribir_marron.png);
+}
+
+.activitytag_davvero_video .bck-enfasis-12 {
+	box-shadow: 0px 3px 4px 1px #d7d3d2;
+	background-color: #FFFFFF;
+}
 
  /**/
 #actividad .content .intro .header .title h3 {
