@@ -908,7 +908,19 @@ font-family: 'Eames Century Modern Book';
     font-family: 'Glober xBold';
 }
 
- 
+.bck-enfasis-15 {
+	    color: inherit;
+    margin-left: 20px;
+} 
+
+.bck-enfasis-15:before {
+    content: '\f061';
+    font-family: 'FontAwesome';
+    padding: 7px;
+    margin-left: -25px;
+    margin-top: -8px;
+    color: #F79433;
+}
 
 #actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
     content: counter(bck-li-counter);
