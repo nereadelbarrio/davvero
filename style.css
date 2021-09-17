@@ -2171,12 +2171,13 @@ td,th {
     background: #ffffff;
 }
 
-.celda-3,.celda-4 {
+.celda-3 {
     border: 3px solid #fff
 }
 
 .celda-4 {
-    background: #ffde92
+    background: #FFE180;
+    border: 3px solid #FFF2C4;
 }
 
 .celda-5 {
@@ -2243,7 +2244,7 @@ td,th {
 }
 
 /**----------activitytag_davvero_GRAMATICA------------**/
-.activitytag_davvero_video .bck-title-4 {
+.activitytag_davvero_grammatica .bck-title-4 {
     background-color: #F79433;
 }
 
