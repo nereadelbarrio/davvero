@@ -219,7 +219,7 @@ defi > mcgraw*/
         url('fonts/GloberBoldItalic.woff') format('woff'),
         url('fonts/GloberBoldItalic.ttf') format('truetype'),
         url('fonts/GloberBoldItalic.svg#GloberBoldItalic') format('svg');
-    font-weight: 700;
+    font-weight: 500;
     font-style: italic;
     font-display: swap;
 }
