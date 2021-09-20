@@ -2288,6 +2288,29 @@ td,th {
     color: #F79433;
 }
 
+.activitytag_davvero_grammatica .bck-enfasis-12 {
+	box-shadow: 0px 3px 4px 1px #d7d3d2;
+	background-color: #FFFFFF;
+}
+
+/**----------activitytag_davvero_parole------------**/
+.activitytag_davvero_parole .bck-title-4 {
+    background-color: #2C71B4;
+    padding-left: 60px;
+}
+
+.activitytag_davvero_parole #actividad .content .cke_contents .bck-ol-1 li:before,
+.activitytag_davvero_parole #actividad .content .texto_curso .bck-ol-1 li:before,
+.activitytag_davvero_parole #actividad .content .workspace ul li .bck-ol-1 li:before,
+.activitytag_davvero_parole #actividad .popover-content .bck-ol-1 li:before {
+    color: #2C71B4;
+}
+
+.activitytag_davvero_parole .bck-enfasis-12 {
+	box-shadow: 0px 3px 4px 1px #d7d3d2;
+	background-color: #FFFFFF;
+}
+
  /**/
 #actividad .content .intro .header .title h3 {
     color: #333;
