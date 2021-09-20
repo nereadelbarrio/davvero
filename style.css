@@ -1209,6 +1209,46 @@ content: counter(bck-li-counter,lower-alpha) ".";
     top: 0;
 }
 
+/*Lista ordenada 9*/
+#actividad .content .cke_contents .bck-ol-9,
+#actividad .content .texto_curso .bck-ol-9,
+#actividad .content .workspace ul li .bck-ol-9 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    font-family: 'Glober';
+    margin-left: -11px;
+}
+
+#actividad .content .cke_contents .bck-ol-9 li,
+#actividad .content .texto_curso .bck-ol-9 li,
+#actividad .content .workspace ul li .bck-ol-9 li,
+#actividad .popover-content .bck-ol-9 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0;
+    position: relative;
+    z-index: 0;
+    font-weight: 600;
+    font-family: 'Glober';
+}
+
+#actividad .content .cke_contents .bck-ol-9 li:before,
+#actividad .content .texto_curso .bck-ol-9 li:before,
+#actividad .content .workspace ul li .bck-ol-9 li:before,
+#actividad .popover-content .bck-ol-9 li:before {
+    margin-left: -14px;
+    content: counter(bck-li-counter) ".";
+    font-family: 'Glober';
+    font-weight: 800;
+    position: absolute;
+    text-align: right;
+    color: #6E6E70;
+    font-size: 2rem;
+    width: 31px;
+    margin-top: 0;
+    left: -25px;
+    top: 0;
+}
+
 .texto_curso ul li {
     padding-left: 40px
 }
