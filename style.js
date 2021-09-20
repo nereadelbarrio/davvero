@@ -23,7 +23,6 @@
 				{ name: 'Título 7', element: 'h3', attributes: { 'class': 'bck-title bck-title-7'} },
 				{ name: 'Título 8', element: 'h3', attributes: { 'class': 'bck-title bck-title-8'} },
 				{ name: 'Título 9', element: 'h3', attributes: { 'class': 'bck-title bck-title-9'} },
-				{ name: 'Título 10', element: 'h3', attributes: { 'class': 'bck-title bck-title-10'} },
 
 				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -72,6 +71,7 @@
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 				{ name: 'Caja 9', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
+				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
