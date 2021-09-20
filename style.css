@@ -1660,7 +1660,8 @@ padding: 1px 1px;
 .bck-box.bck-box-5 {
     min-height: 0;
     background-color: transparent;
-    border-radius: 0
+    border-radius: 0;
+    margin-top: 40px;
 }
 
 .bck-box.bck-box-5>.bck-title {
@@ -1671,10 +1672,10 @@ padding: 1px 1px;
     padding: 10px 20px;
     width: fit-content;
     display: block;
-    position: relative;
+    position: absolute;
     z-index: 1;
-    top: 0px;
-    right: -226px;
+    top: -47px;
+    right: 0px;
     border-radius: 5px 5px 0 5px;
     font-family: 'Eames Century Modern';
 }
@@ -1746,7 +1747,7 @@ padding: 1px 1px;
     position: relative;
     left: -11px;
     z-index: 100;
-    top: 50px;
+    top: 42px;
     width: 30px;
     margin-top: -6px;
 }
