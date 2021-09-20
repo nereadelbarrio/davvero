@@ -1852,7 +1852,7 @@ text-align: left;
     margin-right: 40px;
 }
 
-.bck-box.bck-box.bck-box-9 > .bck-content {
+.bck-box.bck-box.bck-box-9>.bck-content {
     padding: 10px 20px;
     border-radius: 0;
     border: none
