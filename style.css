@@ -1833,23 +1833,24 @@ text-align: left;
     font-weight: 800;
     text-align: left;
     background-color: transparent;
-    padding: 15px 10px 5px 25px;
+    padding: 40px 10px 5px 25px;
+    margin-bottom: 15px;
     border-bottom: none;
     font-family: 'Eames Century Modern';
 }
 
 .bck-box.bck-box-9>.bck-content:after {
     background: url(images/icono_discourse.PNG);
-	content: "";
+    content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 86px;
+    padding: 72px;
     position: absolute;
     right: 0px;
     z-index: 100;
-    top: -78px;
+    top: -127px;
     width: 30px;
-    margin-right: 40px;
+    margin-right: 21px;
 }
 
 .bck-box.bck-box.bck-box-9>.bck-content {
