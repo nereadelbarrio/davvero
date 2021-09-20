@@ -2281,16 +2281,26 @@ td,th {
     font-size: 2rem
 }
 
+
+/*desplegable 1*/
 .bck-dropdown.bck-dropdown-1 {
-    background-color: #9d9d9c;
-    border-radius: 0;
-    border: none
+        FONT-WEIGHT: 600;
+    background-color: #F79433;
+    border-radius: 10px 10px 0 10px;
+    text-align: right;
+    border: none;
+}
+
+.bck-dropdown-1 .bck-dropdown-button {
+    margin-top: 0px;
+    font-size: 1.8rem;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
-    background-color: #9d9d9c;
+    background-color: transparent;
     display: inline-block;
-    float: right
+    float: right;
 }
 
 .bck-dropdown-1 .fa-chevron-down:before,.bck-dropdown-1 .fa-chevron-up:before {
@@ -2298,15 +2308,16 @@ td,th {
 }
 
 .bck-dropdown-1 .bck-dropdown-content {
-    background-color: #fff;
-    border: 1px solid #9d9d9c;
-    padding-left: 20px;
-    max-height: 800%
+	background-color: #fff2c4;
+    border: 3px solid #f79433;
+    padding: 10px;
+    max-height: 800%;
+    border-radius: 10px 0 10px 10px;
 }
 
 .bck-dropdown-1 .bck-dropdown-titulo {
-    font-size: 1.8rem;
-    padding-left: 11px
+    font-size: 1.9rem;
+    padding-right: 30px;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon>.fa {
