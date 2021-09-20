@@ -778,17 +778,20 @@ color: #fff;
 
 .bck-title-8 {
     color: inherit;
+    background-color: #a9d5c5;
+    height: 64px;
+    border-radius: 15px;
+    width: 70%;
 }
 
-.bck-title-8:before {
+.bck-title-8:after {
     content: "";
     background-image: url(images/icono_sudn.PNG);
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 22px;
-    position: absolute;
-    margin-left: -48px;
-    margin-top: -10px;
+    padding: 62px;
+    margin-top: -30px;
+    right: 0;
 }
 
 .bck-enfasis-1 {
