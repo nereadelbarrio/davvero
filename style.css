@@ -1873,8 +1873,8 @@ text-align: left;
 }
 
 .bck-box.bck-box-10>.bck-content {
-	background: #F6D1CA;
-    padding: 76px 20px 20px 20px;
+	background: #F3F3EE;
+    padding: 80px 20px 20px 20px;
     border-radius: 10px;
 }
 
@@ -1883,30 +1883,30 @@ text-align: left;
 }
 
 .bck-box.bck-box-10>.bck-title {
-	color: #fff;
+color: #fff;
     background: #9F948B;
     padding: 15px 20px 10px;
     width: 70%;
     font-family: 'Eames Century Modern';
-    font-size: 2.1rem;
+    font-size: 3rem;
     border-radius: 6px;
-    display: inline-block;
+    display: block;
     position: relative;
     z-index: 1;
     top: 38px;
-    left: 60px;
+    left: 40px;
 }
 
 .bck-box.bck-box-10>.bck-title:before {
-    background: url(images/icono_caja_10.png);
-	content: "";
+background: url(images/icono_caja_10.png);
+    content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 64px 18px 0 24px;
-    position: relative;
-    left: -70px;
+    padding: 93px 31px 0 24px;
+    position: absolute;
+    left: -66px;
     z-index: 100;
-    top: 42px;
+    top: 18px;
     width: 30px;
     margin-top: -6px;
 }
@@ -1925,8 +1925,8 @@ text-align: left;
 }
 
 .bck-box.bck-box-11>.bck-content {
-	background: #F6D1CA;
-    padding: 76px 20px 20px 20px;
+	background: #F3F3EE;
+    padding: 80px 20px 20px 20px;
     border-radius: 10px;
 }
 
@@ -1935,30 +1935,30 @@ text-align: left;
 }
 
 .bck-box.bck-box-11>.bck-title {
-	color: #fff;
+color: #fff;
     background: #9F948B;
     padding: 15px 20px 10px;
     width: 70%;
     font-family: 'Eames Century Modern';
-    font-size: 2.1rem;
+    font-size: 3rem;
     border-radius: 6px;
-    display: inline-block;
+    display: block;
     position: relative;
     z-index: 1;
     top: 38px;
-    left: 60px;
+    left: 40px;
 }
 
 .bck-box.bck-box-11>.bck-title:before {
     background: url(images/icono_caja_11.png);
-	content: "";
+    content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 64px 18px 0 24px;
-    position: relative;
-    left: -70px;
+    padding: 93px 31px 0 24px;
+    position: absolute;
+    left: -66px;
     z-index: 100;
-    top: 42px;
+    top: 18px;
     width: 30px;
     margin-top: -6px;
 }
