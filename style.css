@@ -907,12 +907,16 @@ font-family: 'Eames Century Modern Book';
 .bck-enfasis-16 {
 	background-color: #5F86C0;
     color: #fff;
+        padding: 10px;
+    display: inline-block;
 	clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
 } 
 
 .bck-enfasis-17 {
 	background-color: #A6B8DD;
     color: #000;
+        padding: 10px;
+    display: inline-block;
 	clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
 } 
 
