@@ -55,11 +55,7 @@
 
 				{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
-				{ name: 'Lista Desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3' } },
-				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4' } },
-				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5' } },
-				{ name: 'Lista Desordenada 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-6' } },
-				{ name: 'Lista Desordenada 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-7' } },
+
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
@@ -88,14 +84,8 @@
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
 				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'celda-3' } },
 				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'celda-4' } },
-				{ name: 'Celda 5', element: 'td', attributes: { 'class': 'celda-5' } },
-				{ name: 'Celda 6', element: 'td', attributes: { 'class': 'celda-6' } },
-
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
-				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } },
-				{ name: 'Desplegable 3', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-3' } },
-				{ name: 'Desplegable 4', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-4' } },
-				{ name: 'Desplegable 5', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-5' } }
+				
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } }
 			]
 		},
 		slidesTitle: {},
