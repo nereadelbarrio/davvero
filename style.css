@@ -795,6 +795,11 @@ color: #fff;
     right: 30px;
 }
 
+
+
+
+
+/*énfasis*/
 .bck-enfasis-1 {
     color: inherit;
     font-weight: 600;
@@ -1859,37 +1864,108 @@ text-align: left;
     border: none
 }
 
-
+/*caja 10*/
 .bck-box.bck-box-10 {
-    background: #2b7239;
     border: none;
-    text-align: left;
-    border-radius: 0
-}
-
-.bck-box.bck-box-10>.bck-title {
-    border: 0;
-    padding: 15px 20px 5px;
-    background: #2b7239;
     border-radius: 0;
-    text-align: left;
-    color: #fff
-}
-
-.bck-box.bck-box-10>.bck-title:after {
-    display: none
+    color: #333;
+    background: none
 }
 
 .bck-box.bck-box-10>.bck-content {
-    padding: 10px 20px;
-    border-radius: 0;
-    border: none;
-    background-color: #2b7239;
-    color: #fff
+	background: #F6D1CA;
+    padding: 76px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.bck-box.bck-box-10>.bck-content p {
+    margin-bottom: 5px
+}
+
+.bck-box.bck-box-10>.bck-title {
+	color: #fff;
+    background: #9F948B;
+    padding: 15px 20px 10px;
+    width: 70%;
+    font-family: 'Eames Century Modern';
+    font-size: 2.1rem;
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 38px;
+    left: 60px;
 }
 
 .bck-box.bck-box-10>.bck-title:before {
-    display: none
+    background: url(images/icono_caja_10.png);
+	content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 64px 18px 0 24px;
+    position: relative;
+    left: -70px;
+    z-index: 100;
+    top: 42px;
+    width: 30px;
+    margin-top: -6px;
+}
+
+.bck-box.bck-box-10>.bck-title p {
+    width: auto;
+    margin-left: -55px;
+}
+
+/*caja 11*/
+.bck-box.bck-box-11 {
+    border: none;
+    border-radius: 0;
+    color: #333;
+    background: none
+}
+
+.bck-box.bck-box-11>.bck-content {
+	background: #F6D1CA;
+    padding: 76px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.bck-box.bck-box-11>.bck-content p {
+    margin-bottom: 5px
+}
+
+.bck-box.bck-box-11>.bck-title {
+	color: #fff;
+    background: #9F948B;
+    padding: 15px 20px 10px;
+    width: 70%;
+    font-family: 'Eames Century Modern';
+    font-size: 2.1rem;
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: 38px;
+    left: 60px;
+}
+
+.bck-box.bck-box-11>.bck-title:before {
+    background: url(images/icono_caja_11.png);
+	content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 64px 18px 0 24px;
+    position: relative;
+    left: -70px;
+    z-index: 100;
+    top: 42px;
+    width: 30px;
+    margin-top: -6px;
+}
+
+.bck-box.bck-box-11>.bck-title p {
+    width: auto;
+    margin-left: -55px;
 }
 
 .info-template .info-title:hover {
@@ -2346,10 +2422,14 @@ td,th {
     padding-left: 60px;
 }
 
-.activitytag_davvero_salotto .bck-enfasis-12 {
-	box-shadow: 0px 3px 4px 1px #d7d3d2;
-	background-color: #FFFFFF;
+/**----------activitytag_davvero_finali------------**/
+.activitytag_davvero_finali .bck-title-4 {
+    background-color: #DA1E49;
+    padding-left: 60px;
 }
+
+
+
 
  /**/
 #actividad .content .intro .header .title h3 {
