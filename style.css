@@ -904,6 +904,21 @@ font-family: 'Eames Century Modern Book';
     color: #F79433;
 }
 
+.bck-enfasis-16 {
+	background-color: #5F86C0;
+    color: #fff;
+	clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
+} 
+
+.bck-enfasis-17 {
+	background-color: #A6B8DD;
+    color: #000;
+	clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
+} 
+
+
+/*listas*/
+
 #actividad .content .cke_contents .bck-ol li:before,#actividad .content .texto_curso .bck-ol li:before,#actividad .content .workspace ul li .bck-ol li:before,#actividad .popover-content .bck-ol li:before {
     content: counter(bck-li-counter);
     position: relative;
