@@ -1819,26 +1819,37 @@ text-align: left;
     display: none
 }
 
+/*caja 9*/
+
 .bck-box.bck-box.bck-box-9 {
-    background: #f8f5ef;
+    background: #F8F7F2;
     border: none;
-    text-align: left;
-    border-radius: 0;
-    -webkit-box-shadow: 10px 8px 15px 0 #b8b8b8;
-    box-shadow: 10px 8px 15px 0 #b8b8b8;
-    margin-bottom: 40px
+    border-radius: 13px;
 }
 
 .bck-box.bck-box-9>.bck-title {
-    border: 0;
-    padding: 15px 20px 5px;
-    background: #f8f5ef;
-    border-radius: 0;
-    text-align: left
+	color: #333;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    background-color: transparent;
+    padding: 15px 10px 5px 25px;
+    border-bottom: none;
+    font-family: 'Eames Century Modern';
 }
 
-.bck-box.bck-box-9>.bck-title:after {
-    display: none
+.bck-box.bck-box-9>.bck-content:after {
+    background: url(images/icono_discourse.PNG);
+	content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 86px;
+    position: absolute;
+    right: 0px;
+    z-index: 100;
+    top: -78px;
+    width: 30px;
+    margin-right: 40px;
 }
 
 .bck-box.bck-box.bck-box-9 > .bck-content {
@@ -1847,9 +1858,6 @@ text-align: left;
     border: none
 }
 
-.bck-box.bck-box-9>.bck-title:before {
-    display: none
-}
 
 .bck-box.bck-box-10 {
     background: #2b7239;
