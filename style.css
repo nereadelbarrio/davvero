@@ -595,7 +595,8 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 #actividad .workspace.chooseblanks .inline-answer a {
-    margin: -7px 2px 2px
+    margin: -7px 2px 2px;
+    border: 2px solid #5656564d;
 }
 
 .bck-i-fullscreen figcaption {
@@ -807,7 +808,8 @@ color: #fff;
 }
 
 .bck-enfasis-5 {
-	font-family: 'FranziskaPro';
+	/*font-family: 'FranziskaPro';*/
+	font-family: 'FranziskaPro-Book';
 }
 
 
@@ -2225,6 +2227,13 @@ td,th {
 .activitytag_davvero_grammatica .bck-title-4 {
     background-color: #F79433;
     padding-left: 60px;
+}
+
+.activitytag_davvero_grammatica #actividad .content .cke_contents .bck-ol-1 li:before,
+.activitytag_davvero_grammatica #actividad .content .texto_curso .bck-ol-1 li:before,
+.activitytag_davvero_grammatica #actividad .content .workspace ul li .bck-ol-1 li:before,
+.activitytag_davvero_grammatica #actividad .popover-content .bck-ol-1 li:before {
+    color: #F79433;
 }
 
  /**/
