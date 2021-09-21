@@ -539,12 +539,20 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not
     display: none
 }
 
-.slide_main .form-control:focus,.slide_main input:focus {
+.slide_main input {
+	    background: #ffffff61;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px dotted #959595;
+    border-top: none;
+}
+
+.slide_main .form-control:focus,
+.slide_main input:focus {
     border-color: #aaa
 }
 
 .slide_main .html-book input {
-    background: #ffffff61;
     background: #ffffff61;
     border-left: none;
     border-right: none;
