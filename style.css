@@ -375,15 +375,15 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 .content_type_curso_davvero .libro-left ul li .title:before {
     content: "";
     background-size: contain;
-    top: 12px;
-    background-image: url(images/logofrenchhub_davvero.png)!important;
+    top: 6px;
+    background-image: url(images/logo-cdl-edizioni.jpg)!important;
     position: fixed;
-    width: 100px;
-    height: 23px;
+    width: 135px;
+    height: 32px;
     background-repeat: no-repeat;
     left: 50%;
     margin-left: -40px;
-    opacity: 1
+    opacity: 1;
 }
 
 .content_type_curso_davvero.content_type_clase_davvero .libro-left ul li .title:before {
@@ -396,13 +396,13 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     top: 0;
     left: 0;
     width: 100px;
-    height: 44px;
-    background: url(images/logofrenchhub_davvero.png) 0 0 no-repeat;
+    height: 39px;
+    background: url(images/logo-cdl-edizioni.jpg) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    background-position: 50%
+    background-position: 50%;
 }
 
 .vjs-poster {
