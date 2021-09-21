@@ -2359,15 +2359,20 @@ td,th {
 /*botones*/
 
 .btn-primary {
-    background-color: #00B6BE;
+    background-color: #9f948b;
 }
 
-.btn-primary,.btn-primary.disabled,.btn-primary.disabled:focus {
+.btn-primary,.btn-primary.disabled,
+.btn-primary.disabled:focus {
     background-color: #31a2c7;
     border-radius: 10px
 }
 
-.btn-primary.active,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open .dropdown-toggle.btn-primary {
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open .dropdown-toggle.btn-primary {
     background-color: #ac0910
 }
 
