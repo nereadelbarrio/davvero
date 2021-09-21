@@ -440,9 +440,12 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     text-decoration: none
 }
 
-.texto_curso .bck-activity-link,.texto_curso .bck-link {
+.texto_curso .bck-activity-link,
+.texto_curso .bck-link {
     cursor: pointer;
-    font-weight: 600
+    font-weight: 600;
+    margin-bottom: -8px;
+    padding-bottom: 0;
 }
 
 #indice .units ul li:not(.add) a .title {
@@ -721,6 +724,7 @@ body.is_app .davvero-navbar.ocultar {
     background-color: #DBF1F3;
     padding: 0 5px 0 5px;
     width: fit-content;
+    font-weight: 500;
 }
 
 .bck-title-5:before {
@@ -847,9 +851,13 @@ background-color: #FFF34D;
 }
 
 .bck-enfasis-10 {
-    font-family: 'Eames Century Modern';
+	font-family: 'Eames Century Modern';
     color: #A0948A;
-    font-size: 1.1rem;
+    font-size: 1.6rem;
+    line-height: 1;
+    top: -0.1em;
+    position: relative;
+    vertical-align: baseline;
 }
 
 .bck-enfasis-11 {
@@ -1654,7 +1662,8 @@ padding: 1px 1px;
     display: block;
     position: absolute;
     z-index: 1;
-    top: -47px;
+    /*top: -47px;*/
+    top: -44px;
     right: 0px;
     border-radius: 5px 5px 0 5px;
     font-family: 'Eames Century Modern';
@@ -1727,14 +1736,15 @@ padding: 1px 1px;
     position: relative;
     left: -11px;
     z-index: 100;
-    top: 42px;
+    /*top: 42px;*/
+    top: 59px;
     width: 30px;
     margin-top: -6px;
 }
 
 .bck-box.bck-box-6>.bck-content p {
-	margin-left: auto;
-    padding: 0px 13px 0px 0px;
+    margin-left: auto;
+    padding: 0px 13px 13px 0px;
     display: block;
     width: 80%;
 }
