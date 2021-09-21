@@ -458,8 +458,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
 
 #indice .units ul li:not(.add) a .title {
     font-size: 14px;
-    font-weight: 600;
-    margin-left: 10px
+    font-weight: 700;
+    margin-left: 10px;
 }
 
 #book-index #indice .units ul li.active a,
@@ -518,7 +518,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title {
 #book-index #indice .unit-content a:hover,#indice .actividades a:active,
 #indice .actividades a:focus,#indice .actividades a:hover,#indice .units ul li a:active,#indice .units ul li a:focus,
 #indice .units ul li a:hover {
-    color: #31a2c7
+    color: #da1e49;
 }
 
 #book-index #indice .unit-content .actividades .item {
