@@ -444,7 +444,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
 .texto_curso .bck-link {
     cursor: pointer;
     font-weight: 600;
-    margin-bottom: -8px;
+    margin-bottom: 0px;
     padding-bottom: 0;
 }
 
@@ -1736,8 +1736,7 @@ padding: 1px 1px;
     position: relative;
     left: -11px;
     z-index: 100;
-    /*top: 42px;*/
-    top: 59px;
+    top: 47px;
     width: 30px;
     margin-top: -6px;
 }
