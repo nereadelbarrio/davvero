@@ -1,8 +1,8 @@
 /*davvero
 defi > mcgraw*/
-@charset "UTF-8";strong {
+/*@charset "UTF-8";strong {
     font-weight: 600
-}
+}*/
 
 @font-face {
     font-family: 'Eames Century Modern';
@@ -662,6 +662,13 @@ body.is_app .davvero-navbar.ocultar {
     padding-left: 12px
 }
 
+.bck-title {
+    border-bottom: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: bold;
+}
+
 
 .bck-title-1 {
 	color: #fff;
@@ -684,6 +691,7 @@ body.is_app .davvero-navbar.ocultar {
     border-bottom: none;
     font-family: 'Eames Century Modern';
     margin-bottom: 25px;
+    color: inherit;
 }
 
 .bck-title-3 {
