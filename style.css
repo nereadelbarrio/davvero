@@ -104,28 +104,6 @@ defi > mcgraw*/
 }
 
 @font-face {
-    font-family: 'FranziskaPro-BookItalic';
-    src: url('fonts/FranziskaPro-BookItalic.eot');
-    src: url('fonts/FranziskaPro-BookItalic.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FranziskaPro-BookItalic.woff') format('woff'),
-        url('fonts/FranziskaPro-BookItalic.ttf') format('truetype'),
-        url('fonts/FranziskaPro-BookItalic.svg#FranziskaPro-BookItalic') format('svg');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'FranziskaPro-Book';
-    src: url('fonts/FranziskaPro-Book.eot');
-    src: url('fonts/FranziskaPro-Book.eot?#iefix') format('embedded-opentype'),
-        url('fonts/FranziskaPro-Book.woff') format('woff'),
-        url('fonts/FranziskaPro-Book.ttf') format('truetype'),
-        url('fonts/FranziskaPro-Book.svg#FranziskaPro-Book') format('svg');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'FranziskaPro';
     src: url('fonts/FranziskaPro-BoldItalic.eot');
     src: url('fonts/FranziskaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
@@ -143,7 +121,7 @@ defi > mcgraw*/
         url('fonts/FranziskaPro-Demibold.woff') format('woff'),
         url('fonts/FranziskaPro-Demibold.ttf') format('truetype'),
         url('fonts/FranziskaPro-Demibold.svg#FranziskaPro-Demibold') format('svg');
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -169,6 +147,27 @@ defi > mcgraw*/
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'FranziskaPro-BookItalic';
+    src: url('fonts/FranziskaPro-BookItalic.eot');
+    src: url('fonts/FranziskaPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-BookItalic.woff') format('woff'),
+        url('fonts/FranziskaPro-BookItalic.ttf') format('truetype'),
+        url('fonts/FranziskaPro-BookItalic.svg#FranziskaPro-BookItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FranziskaPro-Book';
+    src: url('fonts/FranziskaPro-Book.eot');
+    src: url('fonts/FranziskaPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('fonts/FranziskaPro-Book.woff') format('woff'),
+        url('fonts/FranziskaPro-Book.ttf') format('truetype'),
+        url('fonts/FranziskaPro-Book.svg#FranziskaPro-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Glober';
@@ -237,7 +236,7 @@ defi > mcgraw*/
 }
 
 @font-face {
-    font-family: 'Glober';
+    font-family: 'GloberxBold';
     src: url('fonts/GloberxBold.eot');
     src: url('fonts/GloberxBold.eot?#iefix') format('embedded-opentype'),
         url('fonts/GloberxBold.woff') format('woff'),
@@ -700,6 +699,7 @@ body.is_app .davvero-navbar.ocultar {
     color: #fff;
     font-family: 'Eames Century Modern';
     font-size: 1.5rem;
+    line-height: 1.43em!important;
 }
 
 .bck-title-4 {
@@ -789,17 +789,17 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 .bck-enfasis-2 {
-    font-style: normal;
+	font-style: normal;
     color: #fff;
-    font-size: 3rem;
-    font-family: 'Glober xBold';
+    font-size: 3.8rem;
+    font-family: 'Glober';
+    font-weight: 700;
     padding-left: 50px;
 }
 
 .bck-enfasis-3 {
     font-family: 'FranziskaPro';
     font-style: italic;
-    font-weight: 600;
 }
 
 
