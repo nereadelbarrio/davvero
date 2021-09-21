@@ -505,7 +505,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background: #DA1E49 !important;
+    background: #DA1E49!important;
 }
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,
