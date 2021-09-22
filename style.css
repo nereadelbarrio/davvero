@@ -2532,12 +2532,30 @@ td,th {
 }
 
 #indice .unit-content .material .item .imagen.actividad:after {
-    background-color: rgba(59,90,100,.8);
+    background-color: rgba(174,68,15,.7);
     border-radius: 50%
 }
 
 #indice .unit-content .material .item .imagen.actividad:before {
     background-image: none
+}
+
+#indice .unit-content .material .item .imagen.video:before {
+	background-image: none;
+	background-color: rgba(174,68,15,.7);
+    border-radius: 50%;
+}
+
+#indice .unit-content .material .item .imagen.musica:before {
+	background-image: none;
+	background-color: rgba(174,68,15,.7);
+    border-radius: 50%;
+}
+
+#indice .unit-content .material .item .imagen.img:before {
+	background-image: none;
+	background-color: rgba(174,68,15,.7);
+    border-radius: 50%;
 }
 
 a:hover {
