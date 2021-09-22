@@ -337,6 +337,12 @@ defi > mcgraw*/
 
 
 
+/*TOC*/
+#indice .units ul li {
+	background: #AF8C7C;
+	border-radius: 10px;
+}
+
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
     background-color: #333!important
@@ -344,17 +350,24 @@ defi > mcgraw*/
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     font-size: 14px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 #indice .units ul li:hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
-    background: #f6e7db;
+    background: #f1d0b5;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
-    color: #000;
+    color: #FFF;
 }
+
+#indice .units ul li a .title {
+    color: #000
+}
+
+
+/*GENERAL*/
 
 #book-index #indice .units ul li a .title {
     margin: 0;
@@ -362,17 +375,16 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     font-weight: 600
 }
 
-#indice .units ul li a .title {
-    color: #000
-}
-
+/*INPUT ACTI
 .input_blanco .slide_main .html-book input {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     border-bottom: 2px dotted #959595;
-    background: #fff
-}
+    background: #fff;
+}*/
+
+/*LOGO*/
 
 .content_type_curso_davvero .libro-left ul li .title:before {
     content: "";
@@ -423,6 +435,7 @@ body {
     text-align: left
 }
 
+/*PÁRRAFOS*/
 .texto_curso p {
     line-height: 1.43em!important;
     margin-bottom: 10px
@@ -432,6 +445,7 @@ body {
     font-size: 1.8rem
 }
 
+/*IMÁGENES*/
 body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoom_flag_img) {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -443,6 +457,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     text-decoration: none
 }
 
+/*ENLACES*/
 .texto_curso .bck-activity-link,
 .texto_curso .bck-link {
     cursor: pointer;
@@ -451,17 +466,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     padding-bottom: 0;
 }
 
-
-#indice .units ul li {
-	background: #AF8C7C;
-	border-radius: 10px;
-}
-
-#indice .units ul li:not(.add) a .title {
-    font-size: 14px;
-    font-weight: 700;
-    margin-left: 10px;
-}
+/*MENU LATERAL*/
 
 #book-index #indice .units ul li.active a,
 body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
@@ -475,6 +480,13 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 #book-index .col-main {
     background: #31a2c7
 }
+
+#indice .units ul li:not(.add) a .title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
 
 #indice .unit-content .header .title {
     color: #fff;
