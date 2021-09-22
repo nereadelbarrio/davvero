@@ -337,7 +337,8 @@ defi > mcgraw*/
 
 
 
-#indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled) {
+#indice .units ul li.active:not(.disabled),
+#indice .units ul li:focus:not(.disabled) {
     background-color: #333!important
 }
 
@@ -2473,15 +2474,15 @@ td,th {
 
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
-    background-color: #ae440f!important
+    background-color: #DA1E49!important;
 }
 
 .btn-primary,.btn-primary.disabled {
-    background-color: #ae440f
+    background-color: #DA1E49;
 }
 
 #indice .actividades a:hover {
-    color: #ae440f
+    color: #DA1E49;
 }
 
 #indice .unit-content .actividades .item .text {
