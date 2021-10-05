@@ -1429,19 +1429,21 @@ content: counter(bck-li-counter,lower-alpha) ".";
 }
 
 /*caja 2*/
+
 .bck-box.bck-box-2 {
     border: none;
     border-radius: 0;
     color: #333;
     background: none
 }
-
 .bck-box.bck-box-2>.bck-content {
 	background: #F6D1CA;
     padding: 50px 20px 20px 20px;
     border-radius: 10px;
 }
-
+.bck-box.bck-box-2>.bck-content p {
+    margin-bottom: 5px
+}
 .bck-box.bck-box-2>.bck-title {
 	color: #fff;
     background: #DA1E48;
@@ -1455,15 +1457,12 @@ content: counter(bck-li-counter,lower-alpha) ".";
     z-index: 1;
     top: 17px;
 }
-
 .bck-box.bck-box-2>.bck-title:before {
-	display: none;
+display: none;
 }
-
 .bck-box.bck-box-2>.bck-title p {
     width: auto;
 }
-
 /*caja 3*/
 .bck-box.bck-box-3 {
     background: transparent;
