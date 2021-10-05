@@ -584,7 +584,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active 
 }
 
 .slide_main .html-book input {
-    background: #ffffff61;
+    background: #fff;
     border-left: none;
     border-right: none;
     border-bottom: 2px dotted #959595;
