@@ -1456,6 +1456,10 @@ content: counter(bck-li-counter,lower-alpha) ".";
     top: 17px;
 }
 
+.bck-box.bck-box-2>.bck-title:before {
+	display: none;
+}
+
 .bck-box.bck-box-2>.bck-title p {
     width: auto;
 }
@@ -1547,10 +1551,11 @@ padding: 1px 1px;
     display: block;
     position: absolute;
     z-index: 1;
-    top: -47px;
+    top: -42px;
     right: 0px;
     border-radius: 5px 5px 0 5px;
-    font-family: 'Eames Century Modern';
+	font-family: 'Glober';
+	font-weight: 600;
 }
 
 .bck-box.bck-box-5>.bck-title:before {
