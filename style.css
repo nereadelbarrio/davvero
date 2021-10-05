@@ -461,7 +461,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
 .texto_curso .bck-activity-link,
 .texto_curso .bck-link {
     cursor: pointer;
-    font-weight: 600;
+    font-weight: inherit;
     margin-bottom: 0px;
     padding-bottom: 0;
 }
