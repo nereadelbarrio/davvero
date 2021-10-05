@@ -713,12 +713,11 @@ body.is_app .davvero-navbar.ocultar {
 
 .bck-title-1 {
 	color: #fff;
-    font-family: 'Eames Century Modern';
-    font-size: 5.1rem;
+    font-family: 'Glober';
+    font-size: 6.1rem;
     padding: 8px 8px 8px 0px;
     margin-left: 0;
     font-weight: 800;
-    font-style: italic;
 }
 
 .bck-title-1:before {
@@ -746,9 +745,9 @@ body.is_app .davvero-navbar.ocultar {
 
 .bck-title-4 {
     background-color: #00B7BD;
-    font-family: 'Eames Century Modern';
+    font-family: 'Glober xBold';
     font-size: 4.1rem;
-    padding: 8px 8px 8px 0px;
+    padding: 15px 8px 0px 40px;
     margin-left: 0;
     font-weight: 600;
     color: #fff;
@@ -778,9 +777,9 @@ body.is_app .davvero-navbar.ocultar {
 
 .bck-title-6 {
     background-color: #B08B7B;
-    font-family: 'Eames Century Modern';
+    font-family: 'Glober xBold';
     font-size: 4.1rem;
-    padding: 8px 8px 8px 0px;
+    padding: 15px 8px 0px 40px;
     margin-left: 0;
     font-weight: 600;
     color: #fff;
