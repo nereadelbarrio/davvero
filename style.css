@@ -763,6 +763,7 @@ body.is_app .davvero-navbar.ocultar {
     padding: 0 5px 0 5px;
     width: fit-content;
     font-weight: 500;
+    margin-top: 5px;
 }
 
 .bck-title-5:before {
@@ -1437,46 +1438,26 @@ content: counter(bck-li-counter,lower-alpha) ".";
 
 .bck-box.bck-box-2>.bck-content {
 	background: #F6D1CA;
-    padding: 76px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
     border-radius: 10px;
-}
-
-.bck-box.bck-box-2>.bck-content p {
-    margin-bottom: 5px
 }
 
 .bck-box.bck-box-2>.bck-title {
 	color: #fff;
     background: #DA1E48;
     padding: 15px 20px 6px;
-    width: 70%;
+    width: fit-content;
     font-family: 'Glober';
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     border-radius: 6px;
     display: inline-block;
     position: relative;
     z-index: 1;
-    top: 38px;
-    left: 60px;
-}
-
-.bck-box.bck-box-2>.bck-title:before {
-    background: url(images/icono_caja_02.PNG);
-	content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 64px 18px 0 24px;
-    position: relative;
-    left: -70px;
-    z-index: 100;
-    top: 42px;
-    width: 30px;
-    margin-top: -6px;
+    top: 17px;
 }
 
 .bck-box.bck-box-2>.bck-title p {
     width: auto;
-    margin-left: -55px;
 }
 
 /*caja 3*/
