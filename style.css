@@ -739,7 +739,7 @@ body.is_app .davvero-navbar.ocultar {
     border-bottom: none;
     color: #fff;
     font-family: 'Glober';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.43em!important;
 }
 
@@ -1379,6 +1379,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
     font-family: 'Glober';
     color: #fff;
     margin-left: -6px;
+    font-weight: 600;
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
@@ -1872,6 +1873,50 @@ color: #fff;
     margin-left: -55px;
 }
 
+
+/*caja 12*/
+.bck-box.bck-box-12 {
+    min-height: 0;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+.bck-box.bck-box-12>.bck-title {
+    border-bottom: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: inherit;
+    background-color: #F79432;
+    padding: 10px 20px 5px 20px;
+    width: fit-content;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: -37.5px;
+    right: 3px;
+    border-radius: 5px 5px 0 5px;
+}
+
+.bck-box.bck-box-12>.bck-title:before {
+    display: none
+}
+
+.bck-box.bck-box-12>.bck-title p {
+    margin-bottom: 0px
+}
+
+.bck-box.bck-box-12>.bck-content {
+	border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 0px;
+}
+
+
+.bck-box.bck-box-12>.bck-content p {
+    margin-left: 17px;
+}
 
 /*pop up*/
 
