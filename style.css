@@ -463,7 +463,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     cursor: pointer;
     font-weight: inherit;
     margin-bottom: 0px;
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
 
 /*MENU LATERAL*/
@@ -1890,8 +1890,9 @@ color: #fff;
     background-color: #F79432;
     padding: 10px 20px 5px 20px;
     width: fit-content;
-    display: block;
+    display: block !important;
     position: absolute;
+    padding-bottom: 0px !important;
     z-index: 1;
     top: -37.5px;
     right: 3px;
