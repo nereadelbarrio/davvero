@@ -1892,9 +1892,8 @@ color: #fff;
     width: fit-content;
     display: block !important;
     position: absolute;
-    padding-bottom: 0px !important;
     z-index: 1;
-    top: -37.5px;
+    top: -33.5px;
     right: 3px;
     border-radius: 5px 5px 0 5px;
 }
