@@ -1550,7 +1550,7 @@ padding: 1px 1px;
     display: block;
     position: absolute;
     z-index: 1;
-    top: -43px;
+    top: -42px;
     right: 0px;
     border-radius: 5px 5px 0 5px;
 	font-family: 'Glober';
@@ -2502,7 +2502,7 @@ td,th {
 }
 
 .bck-box.bck-box-5>.bck-title {
-	top: -43px;
+	top: -42px;
 }
 
 .bck-box.bck-box-10>.bck-title {
