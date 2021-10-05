@@ -571,7 +571,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active 
 }
 
 .slide_main input {
-	    background: #ffffff61;
+	    background: #fff;
     border-left: none;
     border-right: none;
     border-bottom: 2px dotted #959595;
@@ -744,7 +744,7 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 .bck-title-4 {
-    background-color: #00B7BD;
+    background-color: #0da2a7;
     font-family: 'Glober xBold';
     font-size: 4.1rem;
     padding: 15px 8px 0px 40px;
@@ -789,7 +789,7 @@ body.is_app .davvero-navbar.ocultar {
 
 
 .bck-title-7 {
-    color: #F79433;
+    color: #d66a00;
 }
 
 .bck-title-7 {
@@ -877,10 +877,11 @@ body.is_app .davvero-navbar.ocultar {
 display: none;
 }
 
-.bck-enfasis-8 {
+/*.bck-enfasis-8 {
     font-family: 'TTMasters';
     color: #EF3C56;
-}
+    font-size: 2rem;
+}*/
 
 
 .bck-enfasis-9 {
@@ -901,6 +902,7 @@ background-color: #FFF34D;
 .bck-enfasis-11 {
     font-family: 'TTMasters';
     color: #0067B3;
+    font-size: 2rem;
 }
 
 .bck-enfasis-12 {
@@ -995,6 +997,7 @@ font-family: 'Eames Century Modern Book';
     z-index: 0;
     font-weight: 600;
     font-family: 'Glober';
+    font-size: 1.9rem;
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
