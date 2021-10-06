@@ -920,8 +920,9 @@ font-family: 'Eames Century Modern Book';
 }
 
 .bck-enfasis-14 {
-	color: #DA1E49;
-    font-family: 'Glober xBold';
+	    color: #DA1E49;
+    font-family: 'Glober';
+    font-weight: 800;
 }
 
 .bck-enfasis-15 {
@@ -1689,7 +1690,7 @@ background: url(images/icono_caja_06.PNG);
     border-top: 10px solid #575759;
     padding: 9px 10px 10px 10px;
     font-size: 2.2rem;
-    font-family: 'Glober xBold';
+    font-family: 'Glober';
 }
 
 .bck-box.bck-box-8>.bck-content {
@@ -1880,7 +1881,7 @@ color: #fff;
     display: block !important;
     position: absolute;
     z-index: 1;
-    top: -33.5px;
+    top: -32px;
     right: 3px;
     border-radius: 5px 5px 0 5px;
 }
