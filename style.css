@@ -1799,7 +1799,7 @@ background: url(images/icono_caja_10.png);
     position: absolute;
     left: -66px;
     z-index: 100;
-    top: 18px;
+    top: 5px;
     width: 30px;
     margin-top: -6px;
 }
@@ -1838,7 +1838,7 @@ color: #fff;
     display: block;
     position: relative;
     z-index: 1;
-    top: 38px;
+    top: 5px;
     left: 40px;
 }
 
