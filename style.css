@@ -891,13 +891,14 @@ background-color: #FFF34D;
 }
 
 .bck-enfasis-10 {
-	font-family: 'Eames Century Modern';
-    color: #A0948A;
+	font-family: 'Glober';
+    color: #807168;
     font-size: 1.6rem;
     line-height: 1;
     top: -0.1em;
     position: relative;
     vertical-align: baseline;
+    font-weight: 700;
 }
 
 .bck-enfasis-11 {
