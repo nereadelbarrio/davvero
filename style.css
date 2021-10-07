@@ -819,7 +819,15 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 
-
+/*title-9*/
+.bck-title-9 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    border-bottom: none;
+    font-family: 'Glober';
+    margin-bottom: 25px;
+    color: inherit;
+}
 
 
 /*énfasis*/
