@@ -1684,6 +1684,22 @@ background: url(images/icono_caja_06.PNG);
     box-shadow: 0px 3px 15px rgb(176 176 176 / 80%);
 }
 
+.bck-box.bck-box-8:after {
+    border: 10px #575759 solid;
+    content: '';
+    position: absolute;
+    margin-left: -51%;
+    width: 102%;
+    ': -webkit-linear-gradient( to right, #575759, #575759 27%, #adabacad 22%, #adabac38 101%, #575759 34% );
+    background-image: -moz-linear-gradient( to right, #575759, #575759 27%, #adabacad 22%, #adabac38 101%, #575759 34% );
+    background-image: linear-gradient( to right, #575759, #575759 27%, #adabacad 22%, #adabac38 101%, #575759 34% );
+    background-position: 0px -1px, 4px 0px, 50% 0px;
+    background-repeat: repeat-x, repeat-x, repeat;
+    background-size: 39px 24px, 30px 30px, 34px 30px;
+    padding: 23px 0px 0px 0px;
+    box-shadow: 1px 2px 15px rgb(176 176 176 / 80%);
+}
+
 .bck-box.bck-box-8>.bck-title {
 	color: #B08B7B;
     font-weight: 900;
@@ -1702,7 +1718,7 @@ background: url(images/icono_caja_06.PNG);
     padding-bottom: 25px;
 }
 
-.bck-box.bck-box-8>.bck-content:after {
+/*.bck-box.bck-box-8>.bck-content:after {
 box-shadow: 0px 3px 15px hsl(0deg 0% 0% / 8%);
     position: relative;
     background-image: -webkit-linear-gradient( to right, #575759, #575759 27%, #adabacad 22%, #adabac38 101%, #575759 34% );
@@ -1713,7 +1729,7 @@ box-shadow: 0px 3px 15px hsl(0deg 0% 0% / 8%);
     background-size: 39px 24px, 30px 30px, 34px 30px;
     padding: 23px 0px 0px 0px;
     box-shadow: 0px 3px 15px rgb(176 176 176 / 80%);
-}
+}*/
 
 .bck-box-8:before {
     display: none
