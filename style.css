@@ -703,12 +703,12 @@ body.is_app .davvero-navbar.ocultar {
     padding-left: 12px
 }
 
-.bck-title {
+/*.bck-title {
     border-bottom: none;
     color: inherit;
     font-size: inherit;
     font-weight: bold;
-}
+}*/
 
 
 .bck-title-1 {
@@ -819,24 +819,15 @@ body.is_app .davvero-navbar.ocultar {
 }
 
 
-/*title-9*/
-.bck-title-9 {
+
+/*énfasis*/
+.bck-enfasis-1 {
     font-weight: 800;
     font-size: 2.5rem;
     border-bottom: none;
     font-family: 'Glober';
     margin-bottom: 25px;
     color: inherit;
-}
-
-
-/*énfasis*/
-.bck-enfasis-1 {
-    color: inherit;
-    font-weight: 600;
-    font-size: 8rem;
-    font-family: 'Eames Century Modern';
-    vertical-align: text-bottom;
 }
 
 .bck-enfasis-2 {
@@ -1453,6 +1444,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
 .bck-box.bck-box-2>.bck-content p {
     margin-bottom: 5px
 }
+
 .bck-box.bck-box-2>.bck-title {
 	color: #fff;
     background: #DA1E48;
@@ -1466,6 +1458,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
     z-index: 1;
     top: 17px;
 }
+
 .bck-box.bck-box-2>.bck-title:before {
 display: none;
 }
