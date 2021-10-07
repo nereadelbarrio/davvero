@@ -828,6 +828,7 @@ body.is_app .davvero-navbar.ocultar {
     font-family: 'Glober';
     margin-bottom: 25px;
     color: inherit;
+    line-height: 2;
 }
 
 .bck-enfasis-2 {
@@ -1438,7 +1439,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
 }
 .bck-box.bck-box-2>.bck-content {
 	background: #F6D1CA;
-    padding: 50px 20px 20px 20px;
+    padding: 40px 20px 20px 20px;
     border-radius: 10px;
 }
 .bck-box.bck-box-2>.bck-content p {
