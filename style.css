@@ -2364,10 +2364,15 @@ td,th {
 
 #list-units .unittag_activities_davvero:hover {
 	background: #DA1E49 !important;
+	outline: 3px solid #da1e49;
 }
 
 .units ul#list-units .unittag_activities_davvero a .title {
 	color: #000;
+}
+
+.unittag_activities_davvero #actividad .content .header .title h3 {
+	background: #0da2a7;
 }
 
 /*activitytag*/
