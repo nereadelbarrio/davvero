@@ -2556,58 +2556,49 @@ td,th {
     margin-left: -3px
 }
 
-/*Desplegable 2*/
-
+/*desplegable 2*/
 .bck-dropdown.bck-dropdown-2 {
-	background-color: #fff;
-    margin-top: 10px;
-    border-radius: 0px;
+        FONT-WEIGHT: 600;
+    background-color: #fff;
+    border-radius: 10px 10px 0 10px;
+    text-align: right;
     border: 2px solid #000;
 }
 
 .bck-dropdown-2 .bck-dropdown-button {
-	margin-top: 0px;
-	font-size: 1.2rem;
+    margin-top: 0px;
+    font-size: 1.8rem;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
+    background-color: transparent;
+    display: inline-block;
+    float: right;
+    color: #000;
 }
 
-.bck-dropdown-2 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
-	padding-top: 2px;
+.bck-dropdown-2 .fa-chevron-down:before,.bck-dropdown-1 .fa-chevron-up:before {
+    font-size: 1.8rem
 }
 
-.bck-dropdown-2 .fa-chevron-up:before,
-.bck-dropdown-2 .fa-chevron-down:before {
-	font-size: 1.8rem;
-	color: #000;
-	font-weight: 600;
+.bck-dropdown-2 .bck-dropdown-content {
+    padding: 10px;
+    max-height: 800%;
+    border-radius: 10px 0 10px 10px;
+    border: none;
 }
 
 .bck-dropdown-2 .bck-dropdown-titulo {
-	color: #000;
-	font-size: 1.8rem;
-	padding-top: 2px;
-	font-weight: 600;
+    font-size: 1.9rem;
+    padding-right: 30px;
+    color: #000;
 }
 
-
-.bck-dropdown-2 .bck-dropdown-content {
-	background-color: #fff;
-    border-radius: 0;
-        overflow-y: auto;
-    padding: 10px;
-    padding-left: 20px;
-	max-height: 800%;
-}
-
-.bck-dropdown-2 .bck-dropdown-content p {
-	margin-bottom: 5px;
+.bck-dropdown-2 .bck-dropdown-icon>.fa {
+    border: 0 solid #fff;
+    padding: 0 7px 0 0;
+    margin-left: -3px
 }
 
 /*querys*/
