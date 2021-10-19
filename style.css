@@ -1387,7 +1387,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
     font-family: 'Glober';
     color: #fff;
     margin-left: -6px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
@@ -1791,7 +1791,7 @@ box-shadow: 0px 3px 15px hsl(0deg 0% 0% / 8%);
 
 .bck-box.bck-box-10>.bck-content {
 	background: #F3F3EE;
-    padding: 80px 20px 20px 20px;
+    padding: 55px 20px 20px 37px;
     border-radius: 10px;
 }
 
@@ -1843,7 +1843,7 @@ background: url(images/icono_caja_10.png);
 
 .bck-box.bck-box-11>.bck-content {
 	background: #F3F3EE;
-    padding: 80px 20px 20px 20px;
+    padding: 45px 20px 20px 20px;
     border-radius: 10px;
 }
 
@@ -1862,7 +1862,7 @@ color: #fff;
     display: block;
     position: relative;
     z-index: 1;
-    top: 5px;
+    top: 41px;
     left: 40px;
 }
 
