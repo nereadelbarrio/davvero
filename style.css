@@ -2561,6 +2561,12 @@ td,th {
 /*desplegabble 2*/
 .bck-dropdown.bck-dropdown-2 {
     background-color: #fff;
+    margin-top: 0px;
+    background: #fff;
+    color: #fff;
+    text-align: left;
+    border: 2px solid #000;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon {
@@ -2581,7 +2587,9 @@ td,th {
 
 .bck-dropdown-2 .bck-dropdown-titulo {
     font-size: 2.2rem;
-    padding: 5px 1px 1px
+    padding: 5px 1px 1px;
+    color: #000;
+    font-weight: 600;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon>.fa {
@@ -2607,12 +2615,13 @@ td,th {
     max-height: none;
     background-color: #fff;
     border: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
     border-radius: 10px;
-    border-top: 0;
+    border-top: 10px;
     padding: 10px 10px 10px 20px;
     text-align: left;
+    color: #000;
 }
 
 .bck-dropdown-subtitulo {
