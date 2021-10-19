@@ -1579,7 +1579,7 @@ padding: 1px 1px;
     font-weight: 600;
     background-color: #BFE6E8;
     border-radius: 5px;
-    padding: 10px 30px 10px 67px;
+    padding: 18px 30px 10px 67px;
 }
 
 .bck-box.bck-box-5>.bck-content:before {
@@ -1620,7 +1620,7 @@ background: url(images/icono_caja_05.PNG);
 }
 
 .bck-box.bck-box-6>.bck-content {
-    padding: 14px 10px 10px 25px;
+    padding: 23px 10px 10px 25px;
         font-weight: 600;
 }
 
