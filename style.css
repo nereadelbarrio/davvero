@@ -871,7 +871,7 @@ body.is_app .davvero-navbar.ocultar {
 .bck-enfasis-7 {
     /*font-weight: 700;*/
     color: #fff;
-    background-color: #F79432;
+    background-color: #ff7e00;
     padding: 7px 11px 5px;
     font-size: 1.8rem;
     border-radius: 9px 9px 0 9px;
@@ -945,11 +945,12 @@ font-family: 'Eames Century Modern Book';
 }
 
 .bck-enfasis-16 {
-	background-color: #5F86C0;
+	background-color: #4c77b7;
     color: #fff;
         padding: 10px;
     display: inline-block;
 	clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0% 50%, 0% 0%);
+	font-weight: 600;
 } 
 
 .bck-enfasis-17 {
@@ -1800,7 +1801,7 @@ box-shadow: 0px 3px 15px hsl(0deg 0% 0% / 8%);
 
 .bck-box.bck-box-10>.bck-title {
 color: #fff;
-    background: #9F948B;
+    background: #807168;
     padding: 15px 20px 10px;
     width: 70%;
     font-family: 'Glober';
@@ -1852,7 +1853,7 @@ background: url(images/icono_caja_10.png);
 
 .bck-box.bck-box-11>.bck-title {
 color: #fff;
-    background: #9F948B;
+    background: #807168;
     padding: 15px 20px 10px;
     width: 70%;
     font-family: 'Glober';
@@ -1898,7 +1899,7 @@ color: #fff;
     color: #fff;
     font-size: 1.8rem;
     font-weight: inherit;
-    background-color: #F79432;
+    background-color: #ff7e00;
     padding: 10px 20px 5px 20px;
     width: fit-content;
     display: block !important;
@@ -2515,7 +2516,7 @@ td,th {
 /*desplegable 1*/
 .bck-dropdown.bck-dropdown-1 {
         FONT-WEIGHT: 600;
-    background-color: #F79433;
+    background-color: #ff7e00;
     border-radius: 10px 10px 0 10px;
     text-align: right;
     border: none;
@@ -2539,7 +2540,7 @@ td,th {
 
 .bck-dropdown-1 .bck-dropdown-content {
 	background-color: #fff2c4;
-    border: 3px solid #f79433;
+    border: 3px solid #ff7e00;
     padding: 10px;
     max-height: 800%;
     border-radius: 10px 0 10px 10px;
