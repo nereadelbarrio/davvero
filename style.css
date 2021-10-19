@@ -2380,6 +2380,10 @@ td,th {
 	background-color: #FFFFFF;
 }
 
+.activitytag_davvero_grammatica .bck-underline {
+	text-decoration-color: #F79433;
+}
+
 /**----------activitytag_davvero_SOUNI------------**/
 .activitytag_davvero_souni #actividad .content .header .title h3 {
 	color: #262e2a;
