@@ -2561,7 +2561,7 @@ td,th {
         FONT-WEIGHT: 600;
     background-color: #fff;
     border-radius: 10px 10px 0 10px;
-    text-align: right;
+    text-align: left;
     border: 2px solid #000;
 }
 
@@ -2569,6 +2569,7 @@ td,th {
     margin-top: 0px;
     font-size: 1.8rem;
     border-radius: 10px 10px 0 10px;
+    background: #ffffff;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon {
@@ -2578,8 +2579,14 @@ td,th {
     color: #000;
 }
 
-.bck-dropdown-2 .fa-chevron-down:before,.bck-dropdown-1 .fa-chevron-up:before {
-    font-size: 1.8rem
+.bck-dropdown-2 .fa-chevron-down:before {
+	content: "\f078";
+	font-size: 1.8rem;
+}
+
+.bck-dropdown-1 .fa-chevron-up:before {
+    font-size: 1.8rem;
+    content: "\f077";
 }
 
 .bck-dropdown-2 .bck-dropdown-content {
