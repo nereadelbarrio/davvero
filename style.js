@@ -87,7 +87,8 @@
 				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'celda-3' } },
 				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'celda-4' } },
 				
-				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } }
+				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
+				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } }
 			]
 		},
 		slidesTitle: {},
