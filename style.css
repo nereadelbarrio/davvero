@@ -2359,6 +2359,10 @@ td,th {
 }
 
 /**----------activitytag_davvero_GRAMATICA------------**/
+.activitytag_davvero_grammatica #actividad .content .header .title h3 {
+	background: #f79433;
+}
+
 .activitytag_davvero_grammatica .bck-title-4 {
     background-color: #F79433;
     padding-left: 60px;
@@ -2375,6 +2379,16 @@ td,th {
 	box-shadow: 0px 3px 4px 1px #d7d3d2;
 	background-color: #FFFFFF;
 }
+
+/**----------activitytag_davvero_SOUNI------------**/
+.activitytag_davvero_souni #actividad .content .header .title h3 {
+	color: #262e2a;
+    background: #a9d5c5;
+    width: 100%;
+    padding: 18px 0 10px 13px;
+}
+
+
 
 /**----------activitytag_davvero_parole------------**/
 .activitytag_davvero_parole .bck-title-4 {
