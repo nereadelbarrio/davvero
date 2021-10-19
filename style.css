@@ -355,7 +355,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 
 #indice .units ul li:hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
-    background: #f1d0b5;
+    background: #da1e49;
 }
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
@@ -2338,6 +2338,37 @@ td,th {
     margin-bottom: 0
 }
 
+/*TAGS*/
+/*---------------------------------Unittag textbooks------------------------------*/
+
+#list-units .unittag_textbook_davvero {
+	background: #0da2a7 !important;
+}
+
+#list-units .unittag_textbook_davvero:hover {
+	background: #DA1E49 !important;
+}
+
+.units ul#list-units .unittag_textbook_davvero a .title {
+	color: #fff;
+}
+
+
+/*---------------------------------Unittag activities------------------------------*/
+
+#list-units .unittag_activities_davvero {
+	background: #fff !important;
+    outline: 3px solid #0da2a7;
+    outline-offset: -3px;
+}
+
+#list-units .unittag_activities_davvero:hover {
+	background: #DA1E49 !important;
+}
+
+.units ul#list-units .unittag_activities_davvero a .title {
+	color: #000;
+}
 
 /*activitytag*/
 /**----------activitytag_davvero_video------------**/
