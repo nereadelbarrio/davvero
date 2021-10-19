@@ -2570,6 +2570,7 @@ td,th {
     font-size: 1.8rem;
     border-radius: 10px 10px 0 10px;
     background: #ffffff;
+    border: none;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon {
@@ -2589,8 +2590,12 @@ td,th {
     content: "\f077";
 }
 
+.bck-dropdown-2 .fa-chevron-up:before, .bck-dropdown-2 .fa-chevron-down:before {
+	font-size: 2.0rem;
+}
+
 .bck-dropdown-2 .bck-dropdown-content {
-    padding: 10px;
+    padding: 25px;
     max-height: 800%;
     border-radius: 10px 0 10px 10px;
     border: none;
