@@ -2556,98 +2556,40 @@ td,th {
     margin-left: -3px
 }
 
-/*desplegable 2*/
+/*Desplegable 2*/
+
 .bck-dropdown.bck-dropdown-2 {
-        FONT-WEIGHT: 600;
-    background-color: #fff;
-    border-radius: 10px 10px 0 10px;
-    text-align: left;
-    border: 2px solid #000;
-}
-
-.bck-dropdown-2 .bck-dropdown-button {
-    margin-top: 0px;
-    font-size: 1.8rem;
-    border-radius: 10px 10px 0 10px;
-    background: #ffffff;
-    border: none;
-}
-
-.bck-dropdown-2 .bck-dropdown-icon {
-    background-color: transparent;
-    display: inline-block;
-    float: right;
-    color: #000;
-}
-
-.bck-dropdown-2 .fa-chevron-down:before {
-	content: "\f078";
-	font-size: 1.8rem;
-}
-
-.bck-dropdown-1 .fa-chevron-up:before {
-    font-size: 1.8rem;
-    content: "\f077";
-}
-
-.bck-dropdown-2 .fa-chevron-up:before, .bck-dropdown-2 .fa-chevron-down:before {
-	font-size: 2.0rem;
-}
-
-.bck-dropdown-2 .bck-dropdown-content {
-    padding: 25px;
-    max-height: 800%;
-    border-radius: 10px 0 10px 10px;
-    border: none;
-}
-
-.bck-dropdown-2 .bck-dropdown-titulo {
-    font-size: 1.9rem;
-    padding-right: 30px;
-    color: #000;
-}
-
-.bck-dropdown-2 .bck-dropdown-icon>.fa {
-    border: 0 solid #fff;
-    padding: 0 7px 0 0;
-    margin-left: -3px
-}
-
-
-/*Desplegable 5*/
-
-.bck-dropdown.bck-dropdown-5 {
 	background-color: #fff;
     margin-top: 10px;
     border-radius: 0px;
     border: 2px solid #000;
 }
 
-.bck-dropdown-5 .bck-dropdown-button {
+.bck-dropdown-2 .bck-dropdown-button {
 	margin-top: 0px;
 	font-size: 1.2rem;
 }
 
-.bck-dropdown-5 .bck-dropdown-icon {
+.bck-dropdown-2 .bck-dropdown-icon {
 	background-color: transparent;
 	width: 35px;
 	height: 10px;
 	float: right;
 }
 
-.bck-dropdown-5 .bck-dropdown-icon>.fa {
+.bck-dropdown-2 .bck-dropdown-icon>.fa {
 	border: 0px solid white;
 	padding-top: 2px;
 }
 
-.bck-dropdown-5 .fa-chevron-up:before,
-.bck-dropdown-5 .fa-chevron-down:before {
+.bck-dropdown-2 .fa-chevron-up:before,
+.bck-dropdown-2 .fa-chevron-down:before {
 	font-size: 1.8rem;
 	color: #000;
 	font-weight: 600;
 }
 
-.bck-dropdown-5 .bck-dropdown-titulo {
+.bck-dropdown-2 .bck-dropdown-titulo {
 	color: #000;
 	font-size: 1.8rem;
 	padding-top: 2px;
@@ -2655,7 +2597,7 @@ td,th {
 }
 
 
-.bck-dropdown-5 .bck-dropdown-content {
+.bck-dropdown-2 .bck-dropdown-content {
 	background-color: #fff;
     border-radius: 0;
         overflow-y: auto;
@@ -2664,7 +2606,7 @@ td,th {
 	max-height: 800%;
 }
 
-.bck-dropdown-5 .bck-dropdown-content p {
+.bck-dropdown-2 .bck-dropdown-content p {
 	margin-bottom: 5px;
 }
 
