@@ -2534,7 +2534,8 @@ td,th {
     float: right;
 }
 
-.bck-dropdown-1 .fa-chevron-down:before,.bck-dropdown-1 .fa-chevron-up:before {
+.bck-dropdown-1 .fa-chevron-down:before,
+.bck-dropdown-1 .fa-chevron-up:before {
     font-size: 1.8rem
 }
 
