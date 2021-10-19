@@ -457,6 +457,10 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     text-decoration: none
 }
 
+.bck-i-fullscreen-wrapper {
+	padding: 0px;
+}
+
 /*ENLACES*/
 .texto_curso .bck-activity-link,
 .texto_curso .bck-link {
