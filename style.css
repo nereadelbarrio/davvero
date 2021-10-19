@@ -2559,93 +2559,65 @@ td,th {
 }
 
 /*desplegabble 2*/
-.bck-dropdown-2 .fa-chevron-down:before, 
-.bck-dropdown-2 .fa-chevron-up:before {
-	font-size: 1.8rem;
-    color: #000;
-}
-
-.bck-dropdown-2 .bck-dropdown-titulo {
-	color: #000;
-}
-
 .bck-dropdown.bck-dropdown-2 {
-    FONT-WEIGHT: 600;
     background-color: #fff;
-    border-radius: 10px 10px 0 10px;
-    text-align: right;
-    border: 2px solid #000;
 }
 
-.bck-dropdown-2 .bck-dropdown-content {
-    background-color: #ffffff;
-    border: none;
-    padding: 10px;
-    max-height: 800%;
-    border-radius: 10px 0 10px 10px;
-}
-/*Desplegable 2
-
-.bck-dropdown.bck-dropdown-2 {
-	background-color: #fff;
-    margin-top: 10px;
-    border-radius: 0px;
-    border: 2px solid #000;
+.bck-dropdown-2 .bck-dropdown-icon {
+    background-color: #fff;
+    display: inline-block;
+    height: auto;
+    float: right
 }
 
 .bck-dropdown-2 .bck-dropdown-button {
 	margin-top: 0px;
-	font-size: 1.2rem;
-}
-
-.bck-dropdown-2 .bck-dropdown-icon {
-	background-color: transparent;
-	width: 35px;
-	height: 10px;
-	float: right;
-}
-
-.bck-dropdown-2 .bck-dropdown-icon>.fa {
-	border: 0px solid white;
-	padding-top: 2px;
-}
-
-.bck-dropdown-2 .fa-chevron-up:before,
-.bck-dropdown-2 .fa-chevron-down:before {
-	font-size: 1.8rem;
-	color: #000;
-	font-weight: 600;
-}
-
-.bck-dropdown-2 .fa-chevron-up:before {
-	content: "\f078";
-}
-
-.bck-dropdown-2 .fa-chevron-down:before {
-	content: "\f077";
+    background: #fff;
+    color: #fff;
+    text-align: left;
+    border: 0;
+    border-radius: 10px 10px 0 10px;
 }
 
 .bck-dropdown-2 .bck-dropdown-titulo {
-	color: #000;
-	font-size: 1.8rem;
-	padding-top: 2px;
-	font-weight: 600;
+    font-size: 2.2rem;
+    padding: 5px 1px 1px
 }
 
+.bck-dropdown-2 .bck-dropdown-icon>.fa {
+    border: 0 solid #fff;
+    padding-top: 2px
+}
+
+.bck-dropdown-2 .fa-chevron-down:before,.bck-dropdown-2 .fa-chevron-up:before {
+    font-size: 2.2rem;
+    color: #000;
+}
+
+.bck-dropdown-2 .fa-chevron-up:before {
+    content: "\f077";
+    font-size: 2rem
+}
+
+.bck-dropdown-2 .fa-chevron-down:before {
+    content: "\f078"
+}
 
 .bck-dropdown-2 .bck-dropdown-content {
-	background-color: #fff;
+    max-height: none;
+    background-color: #fff;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
     border-radius: 0;
-        overflow-y: auto;
-    padding: 10px;
-    padding-left: 20px;
-	max-height: 800%;
+    border-top: 0;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
 }
 
-.bck-dropdown-2 .bck-dropdown-content p {
-	margin-bottom: 5px;
-}
-*/
+.bck-dropdown-subtitulo {
+    display: none;
+}        
 /*querys*/
 
 @media screen and (max-width: 1024px) {
