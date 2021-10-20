@@ -2421,6 +2421,20 @@ td,th {
 	background: #0da2a7;
 }
 
+/*---------------------------------Unittag recursos------------------------------*/
+
+#list-units .unittag_recursos_davvero {
+	background: #dfdada  !important;
+}
+
+#list-units .unittag_recursos_davvero:hover {
+	background: #DA1E49 !important;
+}
+
+.units ul#list-units .unittag_recursos_davvero a .title {
+	color: #000;
+}
+
 /*activitytag*/
 /**----------activitytag_davvero_video------------**/
 .activitytag_davvero_video .bck-title-4 {
