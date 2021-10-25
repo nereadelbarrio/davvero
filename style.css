@@ -2101,7 +2101,7 @@ hr {
     margin-left: 40px
 }
 
-/*SLIDE GRABACION*/
+/*SLIDE GRABACION
 @media screen and (min-width: 580px) {
 	.modal-dialog-center.audio-recording {
 		margin: 0;
@@ -2217,7 +2217,9 @@ hr {
     width: 100%;
     left: 0;
     top: 0;
-}
+}*/
+
+
 /*botones*/
 
 .btn-danger {
