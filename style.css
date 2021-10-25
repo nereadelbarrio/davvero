@@ -2101,26 +2101,7 @@ hr {
     margin-left: 40px
 }
 
-/*SLIDE GRABACION
-@media screen and (min-width: 580px) {
-	.modal-dialog-center.audio-recording {
-		margin: 0;
-		position: absolute;
-		top: 25%;
-		left: 85%;
-		width: 23%;
-	}
-	.col-sm-offset-2 {
-		width: 100%;
-		margin: 0 auto;
-	}
-}
-
-.btn-audiorecorder {
-   opacity: .7;
-   background-color: transparent;
-}
-
+/*SLIDE GRABACION*/
 .recorder-message {
     font-size: 15px;
     margin: 15px auto;
@@ -2139,42 +2120,23 @@ hr {
     text-align: left;
 }
 
+.btn-audiorecorder {
+    opacity: .7;
+    background-color: transparent;
+}
+
+
+.modal-header h5 {
+    font-size: 17px;
+    color: #009e63;
+}
+
 .modal-body {
-   position: relative;
-   padding: 15px;
+    position: relative;
+    padding: 20px;
 }
 
-.modal-backdrop {
-   background-color: #ffffff7a;
-   position: fixed;
-   height: 100%;
-   width: 100%;
-   left: 0;
-   top: 0;
-}
-
-#actividad .workspace.true-false .tf-option {
-    display: inline-block;
-    margin-left: 60px;
-}
-
-.solapas-active .tab-content {
-    width: calc(100% - 144px);
-}
-
-#remote-modal .modal-solapas #dlgForm #solapas ul.tabs-left {
-	position: relative;
-	left: 0;
-}
-
-#solapas {
-    width: 144px;
-    text-align: center;
-    float: left;
-}
-
-
-.modal-dialog-center {
+.modal-dialog.modal-dialog-center {
     margin: 0;
     position: absolute;
     top: 25%;
@@ -2182,42 +2144,21 @@ hr {
     width: 23%;
 }
 
-.recorder-message {
-    font-size: 15px;
-    margin: 15px 0;
-}
-
-@media screen and (min-width: 580px) {
-     .col-sm-offset-2 {
-           margin-left: 0;
-    }
-}
-
-.btn-audiorecorder {
-    opacity: .7;
-    background-color: transparent;
-    margin-left: 45%;
-}
-
-.recorder-message {
-    font-size: 15px;
-    margin: 15px 25%;
-    width: 100%;
-}
-
-.modal-body {
-    position: relative;
-    padding: 15px;
-}
-
 .modal-backdrop {
-    background-color: #ffffff7a;
+    background-color: #3ac62a00;
     position: fixed;
     height: 100%;
     width: 100%;
     left: 0;
     top: 0;
-}*/
+}
+
+@media screen and (min-width: 580px) {
+     .col-sm-offset-2 {
+       width: 100%;
+    	margin: 0 auto;
+    }
+}
 
 
 /*botones*/
