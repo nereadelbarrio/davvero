@@ -2101,7 +2101,7 @@ hr {
     margin-left: 40px
 }
 
-/*SLIDE GRABACION
+/*slide grabacion*/
 .recorder-message {
     font-size: 15px;
     margin: 15px auto;
@@ -2124,7 +2124,6 @@ hr {
     opacity: .7;
     background-color: transparent;
 }
-
 
 .modal-header h5 {
     font-size: 17px;
@@ -2152,14 +2151,6 @@ hr {
     left: 0;
     top: 0;
 }
-
-@media screen and (min-width: 580px) {
-     .col-sm-offset-2 {
-       width: 100%;
-    	margin: 0 auto;
-    }
-}*/
-
 
 /*botones*/
 
