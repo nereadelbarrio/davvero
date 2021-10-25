@@ -2102,55 +2102,7 @@ hr {
 }
 
 /*slide grabacion*/
-.recorder-message {
-    font-size: 15px;
-    margin: 15px auto;
-    width: 100%;
-}
 
-.recorder-message .recorder-text {
-    float: none;
-}
-
-.recorder-message .recorder-text span{
-	display: block;
-    float: right;
-    height: 20px;
-    width: 20px;
-    text-align: left;
-}
-
-.btn-audiorecorder {
-    opacity: .7;
-    background-color: transparent;
-}
-
-.modal-header h5 {
-    font-size: 17px;
-    color: #009e63;
-}
-
-.modal-body {
-    position: relative;
-    padding: 20px;
-}
-
-.modal-dialog.modal-dialog-center {
-    margin: 0;
-    position: absolute;
-    top: 25%;
-    left: 85%;
-    width: 23%;
-}
-
-.modal-backdrop {
-    background-color: #3ac62a00;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-}
 
 /*botones*/
 
