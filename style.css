@@ -566,7 +566,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active 
     background: #9F948B;
     width: 100%;
     padding: 13px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 #actividad .content .header .title h3:before {
@@ -862,7 +862,7 @@ body.is_app .davvero-navbar.ocultar {
 
 .bck-enfasis-6 {
     font-family: 'Segoe Print';
-    color: #0067B3;
+    color: #075d9b;
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -2061,7 +2061,13 @@ hr {
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
     background: #fff;
     padding-left: 10px;
-    padding-right: 10px
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 6px;
+}
+
+#actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
+	padding-top: 20px;
 }
 
 #actividad .workspace.test .checkbox-option label.filter-label,
@@ -2241,8 +2247,8 @@ hr {
     left: 0;
     top: 0;
 }
-*/
 
+*/
 
 /*botones*/
 
@@ -2593,7 +2599,11 @@ td,th {
     padding: 18px 0 10px 13px;
 }
 
-
+.activitytag_davvero_souni #actividad .workspace.chooseblanks .inline-answer a {
+    margin: -7px 2px 2px;
+    border: 2px solid #5656564d;
+    background-color: #fff !important;
+}
 
 /**----------activitytag_davvero_parole------------**/
 .activitytag_davvero_parole #actividad .content .header .title h3 {
@@ -2641,14 +2651,29 @@ td,th {
     font-weight: 600;
 }
 
+.activitytag_davvero_parole #actividad .workspace.chooseblanks .inline-answer a {
+    margin: -7px 2px 2px;
+    border: 2px solid #5656564d;
+    background-color: #fff !important;
+}
 
 /**----------activitytag_davvero_salotto------------**/
+.activitytag_davvero_salotto #actividad .content .header .title h3 {
+	background: #fff;
+	padding: 18px 0 10px 13px;
+}
+
 .activitytag_davvero_salotto .bck-title-4 {
     background-color: #009E63;
     padding-left: 60px;
 }
 
 /**----------activitytag_davvero_finali------------**/
+.activitytag_davvero_finali #actividad .content .header .title h3 {
+	background: #fff;
+	padding: 18px 0 10px 13px;
+}
+
 .activitytag_davvero_finali .bck-title-4 {
     background-color: #DA1E49;
     padding-left: 60px;
