@@ -2098,11 +2098,101 @@ hr {
 #actividad .class_slide .review {
     margin-top: 40px;
     text-align: left;
-    margin-left: 40px
+    margin-left: 40px;
 }
 
-/*slide grabacion*/
-/*.recorder-message {
+
+/*slide grabacion sonido
+@media screen and (min-width: 580px) {
+	.modal-dialog-center.audio-recording {
+		margin: 0;
+		position: absolute;
+		top: 25%;
+		left: 85%;
+		width: 23%;
+	}
+	.col-sm-offset-2 {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+.recorder-message {
+    font-size: 15px;
+    margin: 15px auto;
+    width: 100%;
+}
+
+.recorder-message .recorder-text {
+    float: none;
+}
+
+.recorder-message .recorder-text span{
+	display: block;
+    float: right;
+    height: 20px;
+    width: 20px;
+    text-align: left;
+}
+
+.modal-body {
+   position: relative;
+   padding: 15px;
+}
+
+.modal-backdrop {
+   background-color: #ffffff7a;
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+
+
+
+.solapas-active .tab-content {
+    width: calc(100% - 144px);
+}
+
+#remote-modal .modal-solapas #dlgForm #solapas ul.tabs-left {
+	position: relative;
+	left: 0;
+}
+
+#solapas {
+    width: 144px;
+    text-align: center;
+    float: left;
+}
+
+
+.modal-dialog-center {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    width: 23%;
+}
+
+.recorder-message {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+@media screen and (min-width: 580px) {
+     .col-sm-offset-2 {
+       width: 100%;
+    	margin: 0 auto;
+    }
+}
+
+
+
+*/
+
+.recorder-message {
     font-size: 15px;
     margin: 15px auto;
     width: 100%;
@@ -2150,7 +2240,9 @@ hr {
     width: 100%;
     left: 0;
     top: 0;
-}*/
+}
+
+
 
 /*botones*/
 
@@ -2659,6 +2751,10 @@ td,th {
     margin-left: -3px
 }
 
+.bck-dropdown-1 .bck-dropdown-subtitulo {
+    display: none !important;
+}
+
 /*desplegabble 2*/
 .bck-dropdown.bck-dropdown-2 {
     background-color: #fff;
@@ -2725,9 +2821,10 @@ td,th {
     color: #000;
 }
 
-.bck-dropdown-subtitulo {
-    display: none;
-}        
+.bck-dropdown-2 .bck-dropdown-subtitulo {
+    display: none !important;
+}   
+
 /*querys*/
 
 @media screen and (max-width: 1024px) {
