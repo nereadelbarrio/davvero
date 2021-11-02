@@ -2579,6 +2579,12 @@ td,th {
 	text-decoration-color: #F79433;
 }
 
+.activitytag_davvero_grammatica #actividad .workspace.chooseblanks .inline-answer a {
+    margin: -7px 2px 2px;
+    border: 2px solid #5656564d;
+    background-color: #fff !important;
+}
+
 /**----------activitytag_davvero_SOUNI------------**/
 .activitytag_davvero_souni #actividad .content .header .title h3 {
 	color: #262e2a;
