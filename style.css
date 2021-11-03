@@ -523,7 +523,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover {
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
     background: #DA1E49!important;
-    outline: 3px solid #da1e49;
+    outline: 0;
 }
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,
@@ -2548,7 +2548,7 @@ td,th {
 }
 
 .units ul#list-units .unittag_titulo_davvero a .title {
-	color: #000;
+	color: #fff;
 }
 
 /*activitytag*/
