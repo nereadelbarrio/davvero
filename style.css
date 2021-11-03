@@ -453,7 +453,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.cke_button_disabled):not(.zoo
     background-color: transparent;
     padding: 0 5px;
     color: #333;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none
 }
 
@@ -641,7 +641,10 @@ body.is_app .davvero-navbar.ocultar {
 
 #actividad .workspace.chooseblanks .inline-answer a {
     margin: -7px 2px 2px;
-    border: 2px solid #5656564d;
+    border: 2px solid #333333;
+    padding: 3px 5px 0px 5px  !important;
+    color: #333;
+    font-weight:800;
 }
 
 .bck-i-fullscreen figcaption {
