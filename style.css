@@ -2591,6 +2591,20 @@ td,th {
     background-color: #fff !important;
 }
 
+.activitytag_davvero_grammatica #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+	border: 2px solid #f79433;
+}
+
+.activitytag_davvero_grammatica #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+    color: #009e63;
+    border-color: #009e63;
+}
+
+.activitytag_davvero_grammatica #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    color: #db3228;
+    border-color: #da1e49;
+}
+
 /**----------activitytag_davvero_SOUNI------------**/
 .activitytag_davvero_souni #actividad .content .header .title h3 {
 	color: #262e2a;
@@ -2603,6 +2617,20 @@ td,th {
     margin: -7px 2px 2px;
     border: 2px solid #5656564d;
     background-color: #fff !important;
+}
+
+.activitytag_davvero_souni #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+	border: 2px solid #84d5b8;
+}
+
+.activitytag_davvero_souni #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+    color: #009e63;
+    border-color: #009e63;
+}
+
+.activitytag_davvero_souni #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    color: #db3228;
+    border-color: #da1e49;
 }
 
 /**----------activitytag_davvero_parole------------**/
@@ -2655,6 +2683,21 @@ td,th {
     margin: -7px 2px 2px;
     border: 2px solid #5656564d;
     background-color: #fff !important;
+}
+
+
+.activitytag_davvero_parole #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+	border: 2px solid #2C71B4;
+}
+
+.activitytag_davvero_parole #actividad .workspace.chooseblanks .inline-answer a.respuesta_ok {
+    color: #009e63;
+    border-color: #009e63;
+}
+
+.activitytag_davvero_parole #actividad .workspace.chooseblanks .inline-answer a.respuesta_ko {
+    color: #db3228;
+    border-color: #da1e49;
 }
 
 /**----------activitytag_davvero_salotto------------**/
