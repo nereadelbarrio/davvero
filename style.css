@@ -564,7 +564,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active 
 
 #actividad .content .header .title h3 {
     color: #fff;
-    background: #9F948B;
+    background: #958b83;
     width: 100%;
     padding: 13px;
     font-weight: 700;
@@ -2578,7 +2578,7 @@ td,th {
 }
 
 .activitytag_davvero_grammatica .bck-title-4 {
-    background-color: #F79433;
+    background-color: #d66a00;
     padding-left: 60px;
 }
 
