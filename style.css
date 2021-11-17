@@ -390,7 +390,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     content: "";
     background-size: contain;
     top: 6px;
-    background-image: url(images/logo-cdl-edizioni.jpg)!important;
+    background-image: url(images/logo-cdl-edizioni.png)!important;
     position: fixed;
     width: 135px;
     height: 32px;
@@ -411,7 +411,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     left: 0;
     width: 100px;
     height: 39px;
-    background: url(images/logo-cdl-edizioni.jpg) 0 0 no-repeat;
+    background: url(images/logo-cdl-edizioni.png) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
