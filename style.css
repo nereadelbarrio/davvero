@@ -2598,6 +2598,10 @@ td,th {
 	text-decoration-color: #F79433;
 }
 
+.activitytag_davvero_grammatica s {
+    text-decoration-color: #F79433;
+}
+
 .activitytag_davvero_grammatica #actividad .workspace.chooseblanks .inline-answer a {
     margin: -7px 2px 2px;
     border: 2px solid #5656564d;
