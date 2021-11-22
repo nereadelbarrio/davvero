@@ -676,6 +676,10 @@ body.is_app .davvero-navbar.ocultar {
     vertical-align: bottom;
 }
 
+#actividad .content img {
+	margin-top: 0px;
+}
+
 .bck-file-label,.bck-sub-label {
     background: transparent;
     -webkit-border-radius: 5px 5px;
