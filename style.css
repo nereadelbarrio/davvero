@@ -1406,7 +1406,7 @@ content: counter(bck-li-counter,lower-alpha) ".";
     font-family: 'Glober';
     color: #fff;
     margin-left: -6px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
