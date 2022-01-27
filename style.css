@@ -2966,7 +2966,25 @@ td,th {
 }
 }
 
+/*------------------------------------------QUERIES-------------------------------------------*/
 
+@media only screen and (max-width: 1024px) and (min-width:868px) {
+.bck-box.bck-box-12>.bck-title{
+	padding: 10px 20px 23px 20px;
+	}
+}
+
+@media only screen and (max-width: 867px) and (min-width:375px) {
+.bck-box.bck-box-12>.bck-title{
+	padding: 10px 20px 23px 20px;
+	}
+}
+
+@media screen and (max-width: 375px){
+.bck-box.bck-box-12>.bck-title{
+	padding: 10px 20px 23px 20px;
+	}
+}
 
 #indice .unit-content .header .title {
     display: none
