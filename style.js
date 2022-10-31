@@ -23,6 +23,7 @@
 				{ name: 'Título 7', element: 'h3', attributes: { 'class': 'bck-title bck-title-7'} },
 				{ name: 'Título 8', element: 'h3', attributes: { 'class': 'bck-title bck-title-8'} },
 				{ name: 'Título 9', element: 'h3', attributes: { 'class': 'bck-title bck-title-9'} },
+				{ name: 'Título 10', element: 'h3', attributes: { 'class': 'bck-title bck-title-10'} },
 
 				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -54,6 +55,8 @@
 				{ name: 'Lista Ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-7' } },
 				{ name: 'Lista Ordenada 8', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-8' } },
 				{ name: 'Lista Ordenada 9', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-9' } },
+				{ name: 'Lista Ordenada 10', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-10' } },
+				{ name: 'Lista Ordenada 11', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-11' } },
 
 				{ name: 'Lista Desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1' } },
 				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2' } },
@@ -71,6 +74,8 @@
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 				{ name: 'Caja 12', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
+				{ name: 'Caja 13', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
+				{ name: 'Caja 14', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
 
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
